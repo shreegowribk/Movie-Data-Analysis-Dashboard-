@@ -61,6 +61,11 @@ An econometric, data-driven cinema analytics dashboard and statistical intellige
 └── README.md                # Project documentation
 ```
 
+SCREENSHOT ![Uploading image.png…]()
+
+![Uploading image.png…]()
+
+
 ---
 
 ## 🚀 How to Run the Flask Application
