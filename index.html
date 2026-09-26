@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CineMetrics - Movie Data Analysis & Box Office Intelligence Dashboard</title>
+  <meta name="description" content="Interactive movie data analysis dashboard exploring box office revenues, budgets, ROI, IMDb ratings, genre profitability, and director performance metrics.">
+
+  <!-- Google Fonts: Outfit & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <!-- Chart.js -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <!-- Canvas Confetti -->
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.3/dist/confetti.browser.min.js"></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-layout">
+    
+    <!-- Top Navigation Bar -->
+    <header class="navbar" id="navbar">
+      <div class="nav-container">
+        <div class="nav-brand">
+          <div class="brand-logo-wrap">
+            <i data-lucide="film" class="brand-icon"></i>
+            <span class="brand-pulse"></span>
+          </div>
+          <div class="brand-text">
+            <span class="brand-name">Cine<span class="gradient-text">Metrics</span></span>
+            <span class="brand-badge">Intelligence v2.4</span>
+          </div>
+        </div>
+
+        <!-- Quick Dataset Presets -->
+        <div class="preset-selector-wrap">
+          <label for="datasetPreset" class="preset-label"><i data-lucide="sparkles"></i> Preset:</label>
+          <select id="datasetPreset" class="preset-select">
+            <option value="all">🎬 All 72 Blockbusters & Classics</option>
+            <option value="billion">💰 Billion-Rupee Box Office Club</option>
+            <option value="high-roi">🚀 Ultra-High ROI Gems (>1,000%)</option>
+            <option value="modern">🌟 Modern Cinema (2015–2024)</option>
+            <option value="critics">🏆 8.5+ Critically Acclaimed</option>
+          </select>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="nav-actions">
+          <button id="btnImportCsvModal" class="btn btn-secondary" title="Import custom movie CSV dataset">
+            <i data-lucide="upload-cloud"></i>
+            <span>Import CSV</span>
+          </button>
+          <button id="btnExportData" class="btn btn-primary" title="Export current filtered data">
+            <i data-lucide="download"></i>
+            <span>Export Data</span>
+          </button>
+          <a href="#catalogSection" class="btn btn-ghost" title="Jump to Movies Catalog">
+            <i data-lucide="layout-grid"></i>
+            <span>Movies</span>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="heroSection">
+      <div class="hero-bg-overlay"></div>
+      <div class="hero-container">
+        <div class="hero-content">
+          <div class="hero-pill">
+            <i data-lucide="activity"></i> Global Cinema Analytics Engine
+          </div>
+          <h1 class="hero-title">
+            Decode the Science of <br>
+            <span class="hero-gradient-text">Box Office & Film Economics</span>
+          </h1>
+          <p class="hero-subtitle">
+            Analyze production budgets, worldwide grosses, return on investment (ROI), critical reception, and director power rankings across half a century of cinema.
+          </p>
+
+          <div class="hero-metrics-strip">
+            <div class="hero-strip-item">
+              <span class="hero-strip-num" id="stripTotalGross">₹52.6B</span>
+              <span class="hero-strip-lbl">Total Gross Analyzed</span>
+            </div>
+            <div class="hero-strip-divider"></div>
+            <div class="hero-strip-item">
+              <span class="hero-strip-num" id="stripTotalMovies">72</span>
+              <span class="hero-strip-lbl">Curated Films</span>
+            </div>
+            <div class="hero-strip-divider"></div>
+            <div class="hero-strip-item">
+              <span class="hero-strip-num" id="stripAvgRoi">633%</span>
+              <span class="hero-strip-lbl">Aggregate Market ROI</span>
+            </div>
+            <div class="hero-strip-divider"></div>
+            <div class="hero-strip-item">
+              <span class="hero-strip-num" id="stripAvgRating">8.14</span>
+              <span class="hero-strip-lbl">Avg IMDb Rating</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-spotlight-card" id="heroSpotlightCard">
+          <div class="spotlight-header">
+            <span class="spotlight-badge"><i data-lucide="flame"></i> All-Time Gross Leader</span>
+            <span class="spotlight-rank">#1 Box Office</span>
+          </div>
+          <div class="spotlight-body">
+            <img id="spotlightPoster" src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=300&q=80" alt="Avatar Poster" class="spotlight-poster">
+            <div class="spotlight-info">
+              <h3 id="spotlightTitle" class="spotlight-title">Avatar (2009)</h3>
+              <p class="spotlight-director">Directed by <span id="spotlightDirector">James Cameron</span></p>
+              <div class="spotlight-tags" id="spotlightTags">
+                <span class="tag">Action</span>
+                <span class="tag">Adventure</span>
+                <span class="tag">Sci-Fi</span>
+              </div>
+              <div class="spotlight-financials">
+                <div class="sp-stat">
+                  <span class="sp-lbl">Worldwide Gross</span>
+                  <span class="sp-val text-accent-green" id="spotlightGross">₹2.92 Billion</span>
+                </div>
+                <div class="sp-stat">
+                  <span class="sp-lbl">Budget</span>
+                  <span class="sp-val" id="spotlightBudget">₹237M</span>
+                </div>
+                <div class="sp-stat">
+                  <span class="sp-lbl">Net Profit</span>
+                  <span class="sp-val text-accent-gold" id="spotlightProfit">+₹2.69B (1,133% ROI)</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Main Container -->
+    <main class="main-content">
+
+      <!-- Executive KPI Cards Grid -->
+      <section class="kpi-section" id="kpiSection">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title"><i data-lucide="trending-up"></i> Executive Performance Metrics</h2>
+            <p class="section-desc">Key financial and audience metrics dynamically computed on the active selection</p>
+          </div>
+          <div class="kpi-active-filter-badge" id="kpiFilterCounter">
+            Showing all 72 films
+          </div>
+        </div>
+
+        <div class="kpi-grid">
+          <!-- Card 1: Worldwide Gross -->
+          <div class="kpi-card card-glow-cyan">
+            <div class="kpi-top">
+              <span class="kpi-label">Worldwide Box Office Gross</span>
+              <div class="kpi-icon-wrap icon-cyan">
+                <i data-lucide="indian-rupee"></i>
+              </div>
+            </div>
+            <div class="kpi-value-row">
+              <span class="kpi-value" id="kpiTotalRevenue">₹52.63B</span>
+              <span class="kpi-pill pill-cyan" id="kpiRevenuePill">+₹45.5B Profit</span>
+            </div>
+            <div class="kpi-sub">
+              <span>Avg per film: <strong id="kpiAvgRevenue">₹731.0M</strong></span>
+            </div>
+            <div class="kpi-progress-bar">
+              <div class="kpi-progress-fill fill-cyan" style="width: 85%;"></div>
+            </div>
+          </div>
+
+          <!-- Card 2: Production Budget -->
+          <div class="kpi-card card-glow-purple">
+            <div class="kpi-top">
+              <span class="kpi-label">Total Production Investment</span>
+              <div class="kpi-icon-wrap icon-purple">
+                <i data-lucide="briefcase"></i>
+              </div>
+            </div>
+            <div class="kpi-value-row">
+              <span class="kpi-value" id="kpiTotalBudget">₹7.17B</span>
+              <span class="kpi-pill pill-purple" id="kpiBudgetPill">Median ₹63M</span>
+            </div>
+            <div class="kpi-sub">
+              <span>Avg budget: <strong id="kpiAvgBudget">₹99.6M</strong></span>
+            </div>
+            <div class="kpi-progress-bar">
+              <div class="kpi-progress-fill fill-purple" style="width: 60%;"></div>
+            </div>
+          </div>
+
+          <!-- Card 3: Market ROI Multiplier -->
+          <div class="kpi-card card-glow-green">
+            <div class="kpi-top">
+              <span class="kpi-label">Overall Market ROI %</span>
+              <div class="kpi-icon-wrap icon-green">
+                <i data-lucide="zap"></i>
+              </div>
+            </div>
+            <div class="kpi-value-row">
+              <span class="kpi-value text-accent-green" id="kpiOverallRoi">633.8%</span>
+              <span class="kpi-pill pill-green" id="kpiMultiplierPill">7.34x Return</span>
+            </div>
+            <div class="kpi-sub">
+              <span>Top ROI film: <strong id="kpiTopRoiFilm">Get Out (5,583%)</strong></span>
+            </div>
+            <div class="kpi-progress-bar">
+              <div class="kpi-progress-fill fill-green" style="width: 78%;"></div>
+            </div>
+          </div>
+
+          <!-- Card 4: Audience & Critical Score -->
+          <div class="kpi-card card-glow-gold">
+            <div class="kpi-top">
+              <span class="kpi-label">Audience & Critical Reception</span>
+              <div class="kpi-icon-wrap icon-gold">
+                <i data-lucide="star"></i>
+              </div>
+            </div>
+            <div class="kpi-value-row">
+              <span class="kpi-value text-accent-gold" id="kpiAvgRating">8.14 <small class="text-muted">/10</small></span>
+              <span class="kpi-pill pill-gold" id="kpiMetascorePill">Metascore: 79</span>
+            </div>
+            <div class="kpi-sub">
+              <span>Highest rated: <strong id="kpiTopRatedFilm">The Shawshank Redemption (9.3)</strong></span>
+            </div>
+            <div class="kpi-progress-bar">
+              <div class="kpi-progress-fill fill-gold" style="width: 88%;"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Interactive Filtering & Query Toolbar -->
+      <section class="filters-section" id="filtersSection">
+        <div class="filters-card">
+          <div class="filters-top-bar">
+            <div class="search-input-group">
+              <i data-lucide="search" class="search-icon"></i>
+              <input type="text" id="searchInput" placeholder="Search by title, director, lead actor..." class="search-input">
+              <button id="btnClearSearch" class="btn-clear-search hidden"><i data-lucide="x"></i></button>
+            </div>
+
+            <div class="filter-controls-row">
+              <!-- Decade Filter -->
+              <div class="filter-select-wrap">
+                <label for="filterDecade"><i data-lucide="calendar"></i> Era:</label>
+                <select id="filterDecade" class="filter-select">
+                  <option value="all">All Decades (1970–2024)</option>
+                  <option value="2020s">2020s (New Wave)</option>
+                  <option value="2010s">2010s (Franchise Era)</option>
+                  <option value="2000s">2000s (CGI Boom)</option>
+                  <option value="1990s">1990s (Modern Classics)</option>
+                  <option value="1980s">1980s (Blockbuster Genesis)</option>
+                  <option value="1970s">1970s (New Hollywood)</option>
+                </select>
+              </div>
+
+              <!-- Budget Tier -->
+              <div class="filter-select-wrap">
+                <label for="filterBudgetTier"><i data-lucide="layers"></i> Budget Tier:</label>
+                <select id="filterBudgetTier" class="filter-select">
+                  <option value="all">All Budget Scales</option>
+                  <option value="low">Indie / Low Budget (&lt; ₹25M)</option>
+                  <option value="mid">Mid-Tier (₹25M – ₹100M)</option>
+                  <option value="high">Mega-Blockbuster (&gt; ₹100M)</option>
+                </select>
+              </div>
+
+              <!-- Min IMDb Rating Slider -->
+              <div class="filter-slider-wrap">
+                <div class="slider-header">
+                  <label for="filterRating"><i data-lucide="star"></i> Min IMDb:</label>
+                  <span id="ratingValueDisplay" class="slider-val">6.0+</span>
+                </div>
+                <input type="range" id="filterRating" min="6.0" max="9.3" step="0.1" value="6.0" class="rating-slider">
+              </div>
+
+              <!-- Sorting -->
+              <div class="filter-select-wrap">
+                <label for="filterSort"><i data-lucide="arrow-up-down"></i> Sort By:</label>
+                <select id="filterSort" class="filter-select">
+                  <option value="revenue-desc">Worldwide Gross (High to Low)</option>
+                  <option value="revenue-asc">Worldwide Gross (Low to High)</option>
+                  <option value="roi-desc">ROI % Multiplier (Highest First)</option>
+                  <option value="rating-desc">IMDb Rating (Highest First)</option>
+                  <option value="budget-desc">Budget (Highest First)</option>
+                  <option value="year-desc">Release Year (Newest First)</option>
+                  <option value="title-asc">Title (A to Z)</option>
+                </select>
+              </div>
+
+              <!-- Reset Filters -->
+              <button id="btnResetFilters" class="btn btn-outline" title="Reset all filters">
+                <i data-lucide="rotate-ccw"></i>
+                <span>Reset</span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Genre Filter Pills -->
+          <div class="genre-pills-row">
+            <span class="genre-label"><i data-lucide="clapperboard"></i> Genres:</span>
+            <div class="genre-chips-container" id="genreChipsContainer">
+              <button class="genre-chip active" data-genre="all">All Genres</button>
+              <button class="genre-chip" data-genre="Action">Action</button>
+              <button class="genre-chip" data-genre="Sci-Fi">Sci-Fi</button>
+              <button class="genre-chip" data-genre="Adventure">Adventure</button>
+              <button class="genre-chip" data-genre="Drama">Drama</button>
+              <button class="genre-chip" data-genre="Animation">Animation</button>
+              <button class="genre-chip" data-genre="Comedy">Comedy</button>
+              <button class="genre-chip" data-genre="Crime">Crime</button>
+              <button class="genre-chip" data-genre="Horror">Horror</button>
+              <button class="genre-chip" data-genre="Romance">Romance</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Analytics & Data Visualizations Section -->
+      <section class="analytics-section" id="analyticsSection">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title"><i data-lucide="bar-chart-2"></i> Cinema Intelligence Visualizations</h2>
+            <p class="section-desc">Interactive econometric charts uncovering correlations between costs, earnings, and audience appreciation</p>
+          </div>
+          <div class="chart-tab-controls">
+            <button class="chart-view-tab active" data-tab="all"><i data-lucide="grid"></i> All Charts</button>
+            <button class="chart-view-tab" data-tab="financials"><i data-lucide="pie-chart"></i> Financials</button>
+            <button class="chart-view-tab" data-tab="trends"><i data-lucide="line-chart"></i> Trends</button>
+          </div>
+        </div>
+
+        <div class="charts-grid" id="chartsGrid">
+
+          <!-- Chart 1: Budget vs Revenue Scatter / Bubble Plot -->
+          <div class="chart-card chart-span-2" data-category="financials">
+            <div class="chart-card-header">
+              <div class="chart-title-group">
+                <h3 class="chart-title"><i data-lucide="scatter-chart"></i> Production Budget vs. Worldwide Gross Revenue</h3>
+                <p class="chart-desc">Spotting explosive ROI outliers, blockbuster juggernauts, and cost-efficient masterpieces (Circle size = ROI %)</p>
+              </div>
+              <div class="chart-badge">Pearson r = +0.83</div>
+            </div>
+            <div class="chart-canvas-container" style="height: 380px;">
+              <canvas id="budgetRevenueScatterChart"></canvas>
+            </div>
+          </div>
+
+          <!-- Chart 2: Revenue & Count by Genre (Doughnut) -->
+          <div class="chart-card" data-category="financials">
+            <div class="chart-card-header">
+              <div class="chart-title-group">
+                <h3 class="chart-title"><i data-lucide="pie-chart"></i> Market Share by Genre</h3>
+                <p class="chart-desc">Total Box Office contribution partitioned by movie genre</p>
+              </div>
+            </div>
+            <div class="chart-canvas-container" style="height: 340px;">
+              <canvas id="genreRevenueDoughnutChart"></canvas>
+            </div>
+          </div>
+
+          <!-- Chart 3: Box Office & Budget Trends over Decades -->
+          <div class="chart-card" data-category="trends">
+            <div class="chart-card-header">
+              <div class="chart-title-group">
+                <h3 class="chart-title"><i data-lucide="trending-up"></i> Box Office Evolution Across Eras</h3>
+                <p class="chart-desc">Cumulative revenue & average budget trajectory across decades</p>
+              </div>
+            </div>
+            <div class="chart-canvas-container" style="height: 340px;">
+              <canvas id="decadeTrendsLineChart"></canvas>
+            </div>
+          </div>
+
+          <!-- Chart 4: Top Directors by Cumulative Gross -->
+          <div class="chart-card" data-category="financials">
+            <div class="chart-card-header">
+              <div class="chart-title-group">
+                <h3 class="chart-title"><i data-lucide="award"></i> Top 8 Directors by Global Box Office</h3>
+                <p class="chart-desc">Highest grossing filmmakers in our dataset with film counts</p>
+              </div>
+            </div>
+            <div class="chart-canvas-container" style="height: 340px;">
+              <canvas id="directorsGrossBarChart"></canvas>
+            </div>
+          </div>
+
+          <!-- Chart 5: IMDb Rating vs. ROI Multiplier -->
+          <div class="chart-card" data-category="trends">
+            <div class="chart-card-header">
+              <div class="chart-title-group">
+                <h3 class="chart-title"><i data-lucide="sliders"></i> IMDb Rating vs. ROI % Multiplier</h3>
+                <p class="chart-desc">Investigating whether higher rated films yield proportionally higher percentage returns</p>
+              </div>
+              <div class="chart-badge">Sleeper Hits vs Blockbusters</div>
+            </div>
+            <div class="chart-canvas-container" style="height: 340px;">
+              <canvas id="ratingRoiChart"></canvas>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Statistical Correlations & Data Science Insights Section -->
+      <section class="insights-section" id="insightsSection">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title"><i data-lucide="brain"></i> Data Science & Statistical Insights</h2>
+            <p class="section-desc">Mathematical correlations and findings derived from the CineMetrics statistical engine</p>
+          </div>
+        </div>
+
+        <div class="insights-grid">
+          <!-- Insight Card 1 -->
+          <div class="insight-card">
+            <div class="insight-icon-box bg-cyan-glow">
+              <i data-lucide="link"></i>
+            </div>
+            <div class="insight-content">
+              <div class="insight-stat-row">
+                <span class="insight-metric">Budget ⟷ Revenue</span>
+                <span class="insight-val text-accent-cyan">r = +0.833</span>
+              </div>
+              <h4 class="insight-headline">Strong Positive Budget Correlation</h4>
+              <p class="insight-text">
+                Heavy capital investments in CGI, world-class marketing, and distribution strongly correlate with higher global grosses. However, diminishing returns start emerging beyond the ₹250M threshold.
+              </p>
+            </div>
+          </div>
+
+          <!-- Insight Card 2 -->
+          <div class="insight-card">
+            <div class="insight-icon-box bg-green-glow">
+              <i data-lucide="rocket"></i>
+            </div>
+            <div class="insight-content">
+              <div class="insight-stat-row">
+                <span class="insight-metric">Indie vs Blockbuster ROI</span>
+                <span class="insight-val text-accent-green">5,583% Max ROI</span>
+              </div>
+              <h4 class="insight-headline">The Micro-Budget Phenomenon</h4>
+              <p class="insight-text">
+                Horror and high-concept Thrillers (like <em>Get Out</em>, ₹4.5M budget &rarr; ₹255.7M gross) yield ROI multiples up to <strong>15x higher</strong> than ₹200M+ franchise blockbusters.
+              </p>
+            </div>
+          </div>
+
+          <!-- Insight Card 3 -->
+          <div class="insight-card">
+            <div class="insight-icon-box bg-purple-glow">
+              <i data-lucide="award"></i>
+            </div>
+            <div class="insight-content">
+              <div class="insight-stat-row">
+                <span class="insight-metric">Quality vs Commercial</span>
+                <span class="insight-val text-accent-purple">r = -0.218</span>
+              </div>
+              <h4 class="insight-headline">Audience Scores vs Ticket Sales</h4>
+              <p class="insight-text">
+                Surprisingly, the correlation between IMDb rating and absolute gross is weak to slightly negative in top brackets, demonstrating that popcorn crowd-pleasers frequently out-gross critically acclaimed dramas.
+              </p>
+            </div>
+          </div>
+
+          <!-- Insight Card 4 -->
+          <div class="insight-card">
+            <div class="insight-icon-box bg-gold-glow">
+              <i data-lucide="gem"></i>
+            </div>
+            <div class="insight-content">
+              <div class="insight-stat-row">
+                <span class="insight-metric">Top Performing Genre</span>
+                <span class="insight-val text-accent-gold" id="insightTopGenre">Action & Sci-Fi</span>
+              </div>
+              <h4 class="insight-headline">Global Scalability Advantage</h4>
+              <p class="insight-text">
+                Action and Animation boast the highest international appeal, with foreign box office accounting for over <strong>68% of total gross</strong> compared to comedy and dialogue-driven drama.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Movie Catalog & Explorer Section -->
+      <section class="catalog-section" id="catalogSection">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title"><i data-lucide="film"></i> Movie Explorer & Data Records</h2>
+            <p class="section-desc">Browse, filter, and inspect detailed financial and critical profiles of each film</p>
+          </div>
+          <div class="catalog-view-toggle">
+            <button id="btnViewGrid" class="view-btn active" title="Card Grid View">
+              <i data-lucide="layout-grid"></i> Grid
+            </button>
+            <button id="btnViewTable" class="view-btn" title="Detailed Data Table View">
+              <i data-lucide="table"></i> Table
+            </button>
+          </div>
+        </div>
+
+        <!-- Card Grid View -->
+        <div class="movie-grid" id="movieGrid">
+          <!-- Injected via JavaScript -->
+        </div>
+
+        <!-- Data Table View -->
+        <div class="table-responsive-wrapper hidden" id="tableWrapper">
+          <table class="data-table" id="movieTable">
+            <thead>
+              <tr>
+                <th data-sort="title">Title <i data-lucide="chevrons-up-down" class="th-sort-icon"></i></th>
+                <th data-sort="year">Year <i data-lucide="chevrons-up-down" class="th-sort-icon"></i></th>
+                <th>Genres</th>
+                <th data-sort="director">Director <i data-lucide="chevrons-up-down" class="th-sort-icon"></i></th>
+                <th data-sort="rating">IMDb <i data-lucide="chevrons-up-down" class="th-sort-icon"></i></th>
+                <th data-sort="budget">Budget <i data-lucide="chevrons-up-down" class="th-sort-icon"></i></th>
+                <th data-sort="revenue">Worldwide Gross <i data-lucide="chevrons-up-down" class="th-sort-icon"></i></th>
+                <th data-sort="profit">Net Profit <i data-lucide="chevrons-up-down" class="th-sort-icon"></i></th>
+                <th data-sort="roi">ROI % <i data-lucide="chevrons-up-down" class="th-sort-icon"></i></th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="movieTableBody">
+              <!-- Injected via JavaScript -->
+            </tbody>
+          </table>
+        </div>
+
+        <!-- Pagination / Status footer -->
+        <div class="catalog-footer">
+          <div class="catalog-status" id="catalogStatus">
+            Showing 12 of 72 movies
+          </div>
+          <button id="btnLoadMore" class="btn btn-outline">
+            <i data-lucide="plus-circle"></i> Load More Films
+          </button>
+        </div>
+      </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="app-footer">
+      <div class="footer-container">
+        <div class="footer-brand">
+          <div class="brand-logo-wrap">
+            <i data-lucide="film" class="brand-icon"></i>
+          </div>
+          <span class="brand-name">Cine<span class="gradient-text">Metrics</span></span>
+          <p class="footer-copy">Cinematic Data Science & Box Office Intelligence Architecture.</p>
+        </div>
+        <div class="footer-links">
+          <span>Python Analysis Engine: <code>python3 analyze_movies.py</code></span>
+          <button id="btnFooterExportJson" class="footer-link-btn"><i data-lucide="file-json"></i> Download JSON</button>
+          <button id="btnFooterExportCsv" class="footer-link-btn"><i data-lucide="file-spreadsheet"></i> Download CSV</button>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Movie Detail Modal -->
+    <div class="modal-overlay hidden" id="movieModal">
+      <div class="modal-dialog">
+        <button class="modal-close-btn" id="modalCloseBtn" aria-label="Close modal">
+          <i data-lucide="x"></i>
+        </button>
+        <div class="modal-content" id="modalContent">
+          <!-- Injected via JavaScript -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Import Custom CSV Modal -->
+    <div class="modal-overlay hidden" id="importModal">
+      <div class="modal-dialog modal-dialog-sm">
+        <button class="modal-close-btn" id="importModalCloseBtn" aria-label="Close modal">
+          <i data-lucide="x"></i>
+        </button>
+        <div class="modal-header">
+          <h3 class="modal-title"><i data-lucide="file-up"></i> Import Custom Movie Dataset</h3>
+          <p class="modal-subtitle">Upload any CSV file containing movie titles, budgets, and grosses.</p>
+        </div>
+        <div class="modal-body">
+          <div class="drop-zone" id="dropZone">
+            <i data-lucide="upload-cloud" class="drop-icon"></i>
+            <p class="drop-text">Drag & drop your CSV file here, or <span class="text-accent-cyan">browse files</span></p>
+            <span class="drop-hint">Supports columns: title, year, budget, revenue, rating, director, genres</span>
+            <input type="file" id="csvFileInput" accept=".csv" class="hidden">
+          </div>
+
+          <div class="sample-csv-box">
+            <div class="sample-title">Expected CSV Headers:</div>
+            <code>title, year, genres, director, rating, budget, revenue</code>
+          </div>
+
+          <div class="import-actions">
+            <button id="btnSampleDataReset" class="btn btn-outline">Restore Original 72 Films</button>
+            <button id="btnConfirmImport" class="btn btn-primary" disabled>Process & Load CSV</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Toast Notification Container -->
+    <div class="toast-container" id="toastContainer"></div>
+
+  </div>
+
+  <!-- Scripts -->
+  <script src="data/movies.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

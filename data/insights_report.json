@@ -1,0 +1,390 @@
+{
+  "dataset_size": 72,
+  "financial_kpis": {
+    "total_worldwide_gross": 52629506892,
+    "total_production_budget": 7172200000,
+    "total_net_profit": 45457306892,
+    "overall_market_roi_pct": 633.8,
+    "mean_budget": 99613888.89,
+    "median_budget": 80000000.0,
+    "mean_revenue": 730965373.5,
+    "median_revenue": 469611364.0,
+    "std_dev_revenue": 669607677.81,
+    "mean_rating": 8.14,
+    "median_rating": 8.2
+  },
+  "statistical_correlations": {
+    "budget_vs_worldwide_gross_r": 0.8334,
+    "imdb_rating_vs_worldwide_gross_r": -0.2177,
+    "budget_vs_roi_multiplier_r": -0.3298,
+    "imdb_vs_metascore_r": 0.4117
+  },
+  "genre_rankings": [
+    {
+      "genre": "Adventure",
+      "count": 32,
+      "total_revenue": 34879529961,
+      "avg_revenue": 1089985311.28125,
+      "avg_budget": 149187500.0,
+      "avg_roi": 725.115625,
+      "avg_rating": 8.02
+    },
+    {
+      "genre": "Action",
+      "count": 26,
+      "total_revenue": 28996584466,
+      "avg_revenue": 1115253248.6923077,
+      "avg_budget": 154307692.30769232,
+      "avg_roi": 693.49,
+      "avg_rating": 8.17
+    },
+    {
+      "genre": "Sci-Fi",
+      "count": 26,
+      "total_revenue": 25328801162,
+      "avg_revenue": 974184660.0769231,
+      "avg_budget": 139884615.3846154,
+      "avg_roi": 638.108076923077,
+      "avg_rating": 8.11
+    },
+    {
+      "genre": "Drama",
+      "count": 39,
+      "total_revenue": 19158088877,
+      "avg_revenue": 491233048.1282051,
+      "avg_budget": 71505128.20512821,
+      "avg_roi": 845.306153846154,
+      "avg_rating": 8.25
+    },
+    {
+      "genre": "Comedy",
+      "count": 16,
+      "total_revenue": 11546758912,
+      "avg_revenue": 721672432.0,
+      "avg_budget": 97625000.0,
+      "avg_roi": 687.07,
+      "avg_rating": 7.82
+    },
+    {
+      "genre": "Animation",
+      "count": 12,
+      "total_revenue": 11083292565,
+      "avg_revenue": 923607713.75,
+      "avg_budget": 141083333.33333334,
+      "avg_roi": 697.6158333333333,
+      "avg_rating": 7.91
+    },
+    {
+      "genre": "Crime",
+      "count": 12,
+      "total_revenue": 5069221211,
+      "avg_revenue": 422435100.9166667,
+      "avg_budget": 60083333.333333336,
+      "avg_roi": 1199.1924999999999,
+      "avg_rating": 8.47
+    },
+    {
+      "genre": "Romance",
+      "count": 5,
+      "total_revenue": 3574543305,
+      "avg_revenue": 714908661.0,
+      "avg_budget": 66400000.0,
+      "avg_roi": 824.958,
+      "avg_rating": 8.1
+    },
+    {
+      "genre": "Fantasy",
+      "count": 3,
+      "total_revenue": 2987676169,
+      "avg_revenue": 995892056.3333334,
+      "avg_budget": 86000000.0,
+      "avg_roi": 1332.8766666666668,
+      "avg_rating": 8.17
+    },
+    {
+      "genre": "Thriller",
+      "count": 6,
+      "total_revenue": 2357103439,
+      "avg_revenue": 392850573.1666667,
+      "avg_budget": 22483333.333333332,
+      "avg_roi": 2177.306666666667,
+      "avg_rating": 8.17
+    },
+    {
+      "genre": "Biography",
+      "count": 6,
+      "total_revenue": 2028900000,
+      "avg_revenue": 338150000.0,
+      "avg_budget": 52166666.666666664,
+      "avg_roi": 532.4133333333333,
+      "avg_rating": 8.22
+    },
+    {
+      "genre": "Mystery",
+      "count": 9,
+      "total_revenue": 1927045157,
+      "avg_revenue": 214116128.55555555,
+      "avg_budget": 39277777.777777776,
+      "avg_roi": 1155.7355555555555,
+      "avg_rating": 7.84
+    },
+    {
+      "genre": "History",
+      "count": 3,
+      "total_revenue": 1826200000,
+      "avg_revenue": 608733333.3333334,
+      "avg_budget": 74000000.0,
+      "avg_roi": 889.5166666666668,
+      "avg_rating": 8.57
+    },
+    {
+      "genre": "Family",
+      "count": 3,
+      "total_revenue": 1731217015,
+      "avg_revenue": 577072338.3333334,
+      "avg_budget": 124666666.66666667,
+      "avg_roi": 845.65,
+      "avg_rating": 8.47
+    },
+    {
+      "genre": "Horror",
+      "count": 6,
+      "total_revenue": 1153045157,
+      "avg_revenue": 192174192.83333334,
+      "avg_budget": 11916666.666666666,
+      "avg_roi": 1835.2633333333333,
+      "avg_rating": 7.62
+    },
+    {
+      "genre": "Music",
+      "count": 2,
+      "total_revenue": 521400000,
+      "avg_revenue": 260700000.0,
+      "avg_budget": 16650000.0,
+      "avg_roi": 1435.15,
+      "avg_rating": 8.25
+    },
+    {
+      "genre": "Western",
+      "count": 1,
+      "total_revenue": 426000000,
+      "avg_revenue": 426000000.0,
+      "avg_budget": 100000000.0,
+      "avg_roi": 326.0,
+      "avg_rating": 8.5
+    },
+    {
+      "genre": "War",
+      "count": 1,
+      "total_revenue": 321455689,
+      "avg_revenue": 321455689.0,
+      "avg_budget": 70000000.0,
+      "avg_roi": 359.22,
+      "avg_rating": 8.4
+    }
+  ],
+  "director_rankings": [
+    {
+      "director": "James Cameron",
+      "movie_count": 2,
+      "total_revenue": 5188449331,
+      "avg_rating": 7.9,
+      "top_movies": [
+        "Avatar",
+        "Titanic"
+      ]
+    },
+    {
+      "director": "Anthony Russo, Joe Russo",
+      "movie_count": 2,
+      "total_revenue": 4851854139,
+      "avg_rating": 8.4,
+      "top_movies": [
+        "Avengers: Endgame",
+        "Avengers: Infinity War"
+      ]
+    },
+    {
+      "director": "Christopher Nolan",
+      "movie_count": 6,
+      "total_revenue": 4232832013,
+      "avg_rating": 8.62,
+      "top_movies": [
+        "Oppenheimer",
+        "Inception",
+        "The Dark Knight",
+        "Interstellar",
+        "Dunkirk",
+        "The Prestige"
+      ]
+    },
+    {
+      "director": "Jon Watts",
+      "movie_count": 2,
+      "total_revenue": 3053847111,
+      "avg_rating": 7.8,
+      "top_movies": [
+        "Spider-Man: No Way Home",
+        "Spider-Man: Far From Home"
+      ]
+    },
+    {
+      "director": "J.J. Abrams",
+      "movie_count": 1,
+      "total_revenue": 2071310218,
+      "avg_rating": 7.8,
+      "top_movies": [
+        "Star Wars: Episode VII - The Force Awakens"
+      ]
+    },
+    {
+      "director": "Steven Spielberg",
+      "movie_count": 3,
+      "total_revenue": 1758100000,
+      "avg_rating": 8.53,
+      "top_movies": [
+        "Jurassic Park",
+        "Raiders of the Lost Ark",
+        "Schindler's List"
+      ]
+    },
+    {
+      "director": "Colin Trevorrow",
+      "movie_count": 1,
+      "total_revenue": 1671537444,
+      "avg_rating": 6.9,
+      "top_movies": [
+        "Jurassic World"
+      ]
+    },
+    {
+      "director": "Jon Favreau",
+      "movie_count": 1,
+      "total_revenue": 1663075401,
+      "avg_rating": 6.8,
+      "top_movies": [
+        "The Lion King"
+      ]
+    },
+    {
+      "director": "Joss Whedon",
+      "movie_count": 1,
+      "total_revenue": 1520538536,
+      "avg_rating": 8.0,
+      "top_movies": [
+        "The Avengers"
+      ]
+    },
+    {
+      "director": "Joseph Kosinski",
+      "movie_count": 1,
+      "total_revenue": 1495696292,
+      "avg_rating": 8.3,
+      "top_movies": [
+        "Top Gun: Maverick"
+      ]
+    }
+  ],
+  "decade_breakdown": [
+    {
+      "decade": "1970s",
+      "count": 2,
+      "total_revenue": 397000000,
+      "avg_rating": 8.85
+    },
+    {
+      "decade": "1980s",
+      "count": 1,
+      "total_revenue": 389900000,
+      "avg_rating": 8.4
+    },
+    {
+      "decade": "1990s",
+      "count": 12,
+      "total_revenue": 6078004497,
+      "avg_rating": 8.64
+    },
+    {
+      "decade": "2000s",
+      "count": 12,
+      "total_revenue": 9022695943,
+      "avg_rating": 8.22
+    },
+    {
+      "decade": "2010s",
+      "count": 34,
+      "total_revenue": 27062163597,
+      "avg_rating": 7.92
+    },
+    {
+      "decade": "2020s",
+      "count": 11,
+      "total_revenue": 9679742855,
+      "avg_rating": 7.99
+    }
+  ],
+  "top_grossing_movies": [
+    {
+      "title": "Avatar",
+      "revenue": 2923706026,
+      "profit": 2686706026,
+      "roi": 1133.63
+    },
+    {
+      "title": "Avengers: Endgame",
+      "revenue": 2799439100,
+      "profit": 2443439100,
+      "roi": 686.36
+    },
+    {
+      "title": "Titanic",
+      "revenue": 2264743305,
+      "profit": 2064743305,
+      "roi": 1032.37
+    },
+    {
+      "title": "Star Wars: Episode VII - The Force Awakens",
+      "revenue": 2071310218,
+      "profit": 1826310218,
+      "roi": 745.43
+    },
+    {
+      "title": "Avengers: Infinity War",
+      "revenue": 2052415039,
+      "profit": 1727415039,
+      "roi": 531.51
+    }
+  ],
+  "highest_roi_movies": [
+    {
+      "title": "Get Out",
+      "budget": 4500000,
+      "revenue": 255745157,
+      "roi": 5583.23
+    },
+    {
+      "title": "The Godfather",
+      "budget": 6000000,
+      "revenue": 291000000,
+      "roi": 4750.0
+    },
+    {
+      "title": "Pulp Fiction",
+      "budget": 8000000,
+      "revenue": 213928762,
+      "roi": 2574.11
+    },
+    {
+      "title": "Parasite",
+      "budget": 11400000,
+      "revenue": 263100000,
+      "roi": 2207.89
+    },
+    {
+      "title": "Raiders of the Lost Ark",
+      "budget": 18000000,
+      "revenue": 389900000,
+      "roi": 2066.11
+    }
+  ]
+}

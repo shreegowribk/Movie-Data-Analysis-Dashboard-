@@ -1,0 +1,1944 @@
+[
+  {
+    "id": 1,
+    "title": "Avatar",
+    "year": 2009,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "James Cameron",
+    "cast": [
+      "Sam Worthington",
+      "Zoe Saldana",
+      "Sigourney Weaver"
+    ],
+    "rating": 7.9,
+    "metascore": 83,
+    "budget": 237000000,
+    "revenue": 2923706026,
+    "runtime": 162,
+    "country": "USA",
+    "awards": "Won 3 Oscars. 73 wins & 131 nominations",
+    "synopsis": "A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home.",
+    "poster": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+    "roi": 1133.63,
+    "profit": 2686706026
+  },
+  {
+    "id": 2,
+    "title": "Avengers: Endgame",
+    "year": 2019,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "Anthony Russo, Joe Russo",
+    "cast": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Mark Ruffalo",
+      "Scarlett Johansson"
+    ],
+    "rating": 8.4,
+    "metascore": 78,
+    "budget": 356000000,
+    "revenue": 2799439100,
+    "runtime": 181,
+    "country": "USA",
+    "awards": "Nominated for 1 Oscar. 70 wins & 133 nominations",
+    "synopsis": "After the devastating events of Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more to reverse Thanos' actions.",
+    "poster": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=600&q=80",
+    "roi": 686.36,
+    "profit": 2443439100
+  },
+  {
+    "id": 3,
+    "title": "Titanic",
+    "year": 1997,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "director": "James Cameron",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Kate Winslet",
+      "Billy Zane"
+    ],
+    "rating": 7.9,
+    "metascore": 75,
+    "budget": 200000000,
+    "revenue": 2264743305,
+    "runtime": 194,
+    "country": "USA",
+    "awards": "Won 11 Oscars. Another 126 wins & 83 nominations",
+    "synopsis": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+    "poster": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=600&q=80",
+    "roi": 1032.37,
+    "profit": 2064743305
+  },
+  {
+    "id": 4,
+    "title": "Star Wars: Episode VII - The Force Awakens",
+    "year": 2015,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "J.J. Abrams",
+    "cast": [
+      "Daisy Ridley",
+      "John Boyega",
+      "Oscar Isaac",
+      "Harrison Ford"
+    ],
+    "rating": 7.8,
+    "metascore": 80,
+    "budget": 245000000,
+    "revenue": 2071310218,
+    "runtime": 138,
+    "country": "USA",
+    "awards": "Nominated for 5 Oscars. 64 wins & 140 nominations",
+    "synopsis": "As a new threat to the galaxy rises, Rey, a desert scavenger, and Finn, an ex-stormtrooper, must join Han Solo and Chewbacca to search for the one hope of peace.",
+    "poster": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80",
+    "roi": 745.43,
+    "profit": 1826310218
+  },
+  {
+    "id": 5,
+    "title": "Avengers: Infinity War",
+    "year": 2018,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "Anthony Russo, Joe Russo",
+    "cast": [
+      "Robert Downey Jr.",
+      "Chris Hemsworth",
+      "Josh Brolin"
+    ],
+    "rating": 8.4,
+    "metascore": 68,
+    "budget": 325000000,
+    "revenue": 2052415039,
+    "runtime": 149,
+    "country": "USA",
+    "awards": "Nominated for 1 Oscar. 48 wins & 78 nominations",
+    "synopsis": "The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe.",
+    "poster": "https://images.unsplash.com/photo-1635805737707-575885ab0820?auto=format&fit=crop&w=600&q=80",
+    "roi": 531.51,
+    "profit": 1727415039
+  },
+  {
+    "id": 6,
+    "title": "Spider-Man: No Way Home",
+    "year": 2021,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "Jon Watts",
+    "cast": [
+      "Tom Holland",
+      "Zendaya",
+      "Benedict Cumberbatch"
+    ],
+    "rating": 8.2,
+    "metascore": 71,
+    "budget": 200000000,
+    "revenue": 1921847111,
+    "runtime": 148,
+    "country": "USA",
+    "awards": "Nominated for 1 Oscar. 35 wins & 68 nominations",
+    "synopsis": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds appear.",
+    "poster": "https://images.unsplash.com/photo-1604200213928-ba3cf4fc8436?auto=format&fit=crop&w=600&q=80",
+    "roi": 860.92,
+    "profit": 1721847111
+  },
+  {
+    "id": 7,
+    "title": "Jurassic World",
+    "year": 2015,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "Colin Trevorrow",
+    "cast": [
+      "Chris Pratt",
+      "Bryce Dallas Howard",
+      "Vincent D'Onofrio"
+    ],
+    "rating": 6.9,
+    "metascore": 59,
+    "budget": 150000000,
+    "revenue": 1671537444,
+    "runtime": 124,
+    "country": "USA",
+    "awards": "15 wins & 58 nominations",
+    "synopsis": "A new theme park, built on the original site of Jurassic Park, creates a genetically modified hybrid dinosaur, the Indominus Rex, which escapes containment.",
+    "poster": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=600&q=80",
+    "roi": 1014.36,
+    "profit": 1521537444
+  },
+  {
+    "id": 8,
+    "title": "The Lion King",
+    "year": 2019,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Drama"
+    ],
+    "director": "Jon Favreau",
+    "cast": [
+      "Donald Glover",
+      "Beyonc\u00e9",
+      "Seth Rogen"
+    ],
+    "rating": 6.8,
+    "metascore": 55,
+    "budget": 260000000,
+    "revenue": 1663075401,
+    "runtime": 118,
+    "country": "USA",
+    "awards": "Nominated for 1 Oscar. 21 wins & 44 nominations",
+    "synopsis": "After the murder of his father, a young lion prince flees his kingdom only to learn the true meaning of responsibility and bravery.",
+    "poster": "https://images.unsplash.com/photo-1546182990-dffeafbe841d?auto=format&fit=crop&w=600&q=80",
+    "roi": 539.64,
+    "profit": 1403075401
+  },
+  {
+    "id": 9,
+    "title": "The Avengers",
+    "year": 2012,
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "director": "Joss Whedon",
+    "cast": [
+      "Robert Downey Jr.",
+      "Chris Evans",
+      "Scarlett Johansson"
+    ],
+    "rating": 8.0,
+    "metascore": 69,
+    "budget": 220000000,
+    "revenue": 1520538536,
+    "runtime": 143,
+    "country": "USA",
+    "awards": "Nominated for 1 Oscar. 39 wins & 81 nominations",
+    "synopsis": "Earth's mightiest heroes must come together and learn to fight as a team if they are going to stop the mischievous Loki and his alien army.",
+    "poster": "https://images.unsplash.com/photo-1612036782180-6f0b6cd846fe?auto=format&fit=crop&w=600&q=80",
+    "roi": 591.15,
+    "profit": 1300538536
+  },
+  {
+    "id": 10,
+    "title": "Top Gun: Maverick",
+    "year": 2022,
+    "genres": [
+      "Action",
+      "Drama"
+    ],
+    "director": "Joseph Kosinski",
+    "cast": [
+      "Tom Cruise",
+      "Miles Teller",
+      "Jennifer Connelly"
+    ],
+    "rating": 8.3,
+    "metascore": 78,
+    "budget": 170000000,
+    "revenue": 1495696292,
+    "runtime": 130,
+    "country": "USA",
+    "awards": "Won 1 Oscar. 104 wins & 228 nominations",
+    "synopsis": "After thirty years, Maverick is still pushing the envelope as a top naval aviator, but must confront ghosts of his past when he leads TOP GUN's elite graduates.",
+    "poster": "https://images.unsplash.com/photo-1519074069444-1ba4eae16e60?auto=format&fit=crop&w=600&q=80",
+    "roi": 779.82,
+    "profit": 1325696292
+  },
+  {
+    "id": 11,
+    "title": "Barbie",
+    "year": 2023,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Fantasy"
+    ],
+    "director": "Greta Gerwig",
+    "cast": [
+      "Margot Robbie",
+      "Ryan Gosling",
+      "America Ferrera"
+    ],
+    "rating": 6.9,
+    "metascore": 80,
+    "budget": 145000000,
+    "revenue": 1445638421,
+    "runtime": 114,
+    "country": "USA",
+    "awards": "Won 1 Oscar. 177 wins & 432 nominations",
+    "synopsis": "Barbie and Ken are having the time of their lives in the colorful and seemingly perfect world of Barbie Land until they get a chance to go to the real world.",
+    "poster": "https://images.unsplash.com/photo-1596461404969-9ae70f2830c1?auto=format&fit=crop&w=600&q=80",
+    "roi": 896.99,
+    "profit": 1300638421
+  },
+  {
+    "id": 12,
+    "title": "The Super Mario Bros. Movie",
+    "year": 2023,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Aaron Horvath, Michael Jelenic",
+    "cast": [
+      "Chris Pratt",
+      "Anya Taylor-Joy",
+      "Jack Black"
+    ],
+    "rating": 7.0,
+    "metascore": 46,
+    "budget": 100000000,
+    "revenue": 1362000000,
+    "runtime": 92,
+    "country": "USA",
+    "awards": "Nominated for 3 Golden Globes. 14 wins & 40 nominations",
+    "synopsis": "A Brooklyn plumber named Mario travels through the Mushroom Kingdom with a princess named Peach and an anthropomorphic mushroom named Toad to find his brother.",
+    "poster": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80",
+    "roi": 1262.0,
+    "profit": 1262000000
+  },
+  {
+    "id": 13,
+    "title": "Frozen II",
+    "year": 2019,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Chris Buck, Jennifer Lee",
+    "cast": [
+      "Kristen Bell",
+      "Idina Menzel",
+      "Josh Gad"
+    ],
+    "rating": 6.8,
+    "metascore": 64,
+    "budget": 150000000,
+    "revenue": 1453683476,
+    "runtime": 103,
+    "country": "USA",
+    "awards": "Nominated for 1 Oscar. 18 wins & 92 nominations",
+    "synopsis": "Anna, Elsa, Kristoff, Olaf and Sven leave Arendelle to travel to an ancient, autumn-bound forest of an enchanted land to find the origin of Elsa's powers.",
+    "poster": "https://images.unsplash.com/photo-1517411032315-54ef2cb783bb?auto=format&fit=crop&w=600&q=80",
+    "roi": 869.12,
+    "profit": 1303683476
+  },
+  {
+    "id": 14,
+    "title": "Oppenheimer",
+    "year": 2023,
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Cillian Murphy",
+      "Emily Blunt",
+      "Matt Damon",
+      "Robert Downey Jr."
+    ],
+    "rating": 8.9,
+    "metascore": 90,
+    "budget": 100000000,
+    "revenue": 977000000,
+    "runtime": 180,
+    "country": "USA",
+    "awards": "Won 7 Oscars including Best Picture & Best Director",
+    "synopsis": "The story of American scientist J. Robert Oppenheimer and his role in the development of the atomic bomb during World War II.",
+    "poster": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
+    "roi": 877.0,
+    "profit": 877000000
+  },
+  {
+    "id": 15,
+    "title": "Inception",
+    "year": 2010,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Joseph Gordon-Levitt",
+      "Elliot Page"
+    ],
+    "rating": 8.8,
+    "metascore": 74,
+    "budget": 160000000,
+    "revenue": 839030630,
+    "runtime": 148,
+    "country": "USA",
+    "awards": "Won 4 Oscars. 159 wins & 220 nominations",
+    "synopsis": "A thief who steals corporate secrets through the use of dream-sharing technology is given the inverse task of planting an idea into the mind of a C.E.O.",
+    "poster": "https://images.unsplash.com/photo-1500462918059-b1a0cb512f1d?auto=format&fit=crop&w=600&q=80",
+    "roi": 424.39,
+    "profit": 679030630
+  },
+  {
+    "id": 16,
+    "title": "The Dark Knight",
+    "year": 2008,
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart"
+    ],
+    "rating": 9.0,
+    "metascore": 84,
+    "budget": 185000000,
+    "revenue": 1006234167,
+    "runtime": 152,
+    "country": "USA",
+    "awards": "Won 2 Oscars. Another 163 wins & 163 nominations",
+    "synopsis": "When the menace known as the Joker wreaks havoc and chaos on the people of Gotham, Batman must accept one of the greatest psychological and physical tests.",
+    "poster": "https://images.unsplash.com/photo-1509248961158-e54f6934749c?auto=format&fit=crop&w=600&q=80",
+    "roi": 443.91,
+    "profit": 821234167
+  },
+  {
+    "id": 17,
+    "title": "Interstellar",
+    "year": 2014,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "Sci-Fi"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Matthew McConaughey",
+      "Anne Hathaway",
+      "Jessica Chastain"
+    ],
+    "rating": 8.7,
+    "metascore": 74,
+    "budget": 165000000,
+    "revenue": 773867216,
+    "runtime": 169,
+    "country": "USA",
+    "awards": "Won 1 Oscar. 44 wins & 148 nominations",
+    "synopsis": "When Earth becomes uninhabitable in the future, a farmer and ex-NASA pilot, Joseph Cooper, is tasked to pilot a spacecraft along with a team of researchers.",
+    "poster": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80",
+    "roi": 369.01,
+    "profit": 608867216
+  },
+  {
+    "id": 18,
+    "title": "Parasite",
+    "year": 2019,
+    "genres": [
+      "Drama",
+      "Thriller"
+    ],
+    "director": "Bong Joon Ho",
+    "cast": [
+      "Song Kang-ho",
+      "Lee Sun-kyun",
+      "Cho Yeo-jeong"
+    ],
+    "rating": 8.5,
+    "metascore": 96,
+    "budget": 11400000,
+    "revenue": 263100000,
+    "runtime": 132,
+    "country": "South Korea",
+    "awards": "Won 4 Oscars including Best Picture & International Feature",
+    "synopsis": "Greed and class discrimination threaten the newly formed symbiotic relationship between the wealthy Park family and the destitute Kim clan.",
+    "poster": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?auto=format&fit=crop&w=600&q=80",
+    "roi": 2207.89,
+    "profit": 251700000
+  },
+  {
+    "id": 19,
+    "title": "Everything Everywhere All at Once",
+    "year": 2022,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "director": "Daniel Kwan, Daniel Scheinert",
+    "cast": [
+      "Michelle Yeoh",
+      "Stephanie Hsu",
+      "Ke Huy Quan",
+      "Jamie Lee Curtis"
+    ],
+    "rating": 7.8,
+    "metascore": 81,
+    "budget": 25000000,
+    "revenue": 143400000,
+    "runtime": 139,
+    "country": "USA",
+    "awards": "Won 7 Oscars including Best Picture & Best Actress",
+    "synopsis": "A middle-aged Chinese immigrant is swept up into an insane adventure in which she alone can save existence by exploring other universes and connecting with the lives she could have led.",
+    "poster": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+    "roi": 473.6,
+    "profit": 118400000
+  },
+  {
+    "id": 20,
+    "title": "Dune: Part Two",
+    "year": 2024,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "Denis Villeneuve",
+    "cast": [
+      "Timoth\u00e9e Chalamet",
+      "Zendaya",
+      "Rebecca Ferguson",
+      "Javier Bardem"
+    ],
+    "rating": 8.6,
+    "metascore": 79,
+    "budget": 190000000,
+    "revenue": 711844358,
+    "runtime": 166,
+    "country": "USA",
+    "awards": "Critically acclaimed blockbuster of 2024",
+    "synopsis": "Paul Atreides unites with Chani and the Fremen while seeking revenge against the conspirators who destroyed his family.",
+    "poster": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=600&q=80",
+    "roi": 274.65,
+    "profit": 521844358
+  },
+  {
+    "id": 21,
+    "title": "Spider-Man: Across the Spider-Verse",
+    "year": 2023,
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",
+    "cast": [
+      "Shameik Moore",
+      "Hailee Steinfeld",
+      "Oscar Isaac"
+    ],
+    "rating": 8.6,
+    "metascore": 86,
+    "budget": 100000000,
+    "revenue": 690516673,
+    "runtime": 140,
+    "country": "USA",
+    "awards": "Nominated for 1 Oscar. 92 wins & 144 nominations",
+    "synopsis": "Miles Morales catapults across the Multiverse, where he encounters a team of Spider-People charged with protecting its very existence.",
+    "poster": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80",
+    "roi": 590.52,
+    "profit": 590516673
+  },
+  {
+    "id": 22,
+    "title": "The Lord of the Rings: The Return of the King",
+    "year": 2003,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama",
+      "Fantasy"
+    ],
+    "director": "Peter Jackson",
+    "cast": [
+      "Elijah Wood",
+      "Viggo Mortensen",
+      "Ian McKellen"
+    ],
+    "rating": 9.0,
+    "metascore": 94,
+    "budget": 94000000,
+    "revenue": 1146457748,
+    "runtime": 201,
+    "country": "New Zealand, USA",
+    "awards": "Won 11 Oscars (Clean sweep, including Best Picture)",
+    "synopsis": "Gandalf and Aragorn lead the World of Men against Sauron's army to draw his gaze from Frodo and Sam as they approach Mount Doom with the One Ring.",
+    "poster": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=600&q=80",
+    "roi": 1119.64,
+    "profit": 1052457748
+  },
+  {
+    "id": 23,
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Quentin Tarantino",
+    "cast": [
+      "John Travolta",
+      "Uma Thurman",
+      "Samuel L. Jackson"
+    ],
+    "rating": 8.9,
+    "metascore": 95,
+    "budget": 8000000,
+    "revenue": 213928762,
+    "runtime": 154,
+    "country": "USA",
+    "awards": "Won 1 Oscar. 70 wins & 75 nominations",
+    "synopsis": "The lives of two mob hitmen, a boxer, a gangster and his wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+    "poster": "https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?auto=format&fit=crop&w=600&q=80",
+    "roi": 2574.11,
+    "profit": 205928762
+  },
+  {
+    "id": 24,
+    "title": "The Godfather",
+    "year": 1972,
+    "genres": [
+      "Crime",
+      "Drama"
+    ],
+    "director": "Francis Ford Coppola",
+    "cast": [
+      "Marlon Brando",
+      "Al Pacino",
+      "James Caan"
+    ],
+    "rating": 9.2,
+    "metascore": 100,
+    "budget": 6000000,
+    "revenue": 291000000,
+    "runtime": 175,
+    "country": "USA",
+    "awards": "Won 3 Oscars including Best Picture & Best Actor",
+    "synopsis": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son.",
+    "poster": "https://images.unsplash.com/photo-1533488765986-dfa2a9939acd?auto=format&fit=crop&w=600&q=80",
+    "roi": 4750.0,
+    "profit": 285000000
+  },
+  {
+    "id": 25,
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "genres": [
+      "Drama"
+    ],
+    "director": "Frank Darabont",
+    "cast": [
+      "Tim Robbins",
+      "Morgan Freeman",
+      "Bob Gunton"
+    ],
+    "rating": 9.3,
+    "metascore": 82,
+    "budget": 25000000,
+    "revenue": 73300000,
+    "runtime": 142,
+    "country": "USA",
+    "awards": "Nominated for 7 Oscars. 21 wins & 43 nominations",
+    "synopsis": "Over the course of several years, two convicts form a friendship, seeking consolation and, eventually, redemption through basic compassion.",
+    "poster": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80",
+    "roi": 193.2,
+    "profit": 48300000
+  },
+  {
+    "id": 26,
+    "title": "Spirited Away",
+    "year": 2001,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Family",
+      "Fantasy"
+    ],
+    "director": "Hayao Miyazaki",
+    "cast": [
+      "Rumi Hiiragi",
+      "Miyu Irino",
+      "Mari Natsuki"
+    ],
+    "rating": 8.6,
+    "metascore": 96,
+    "budget": 19000000,
+    "revenue": 395580000,
+    "runtime": 125,
+    "country": "Japan",
+    "awards": "Won 1 Oscar for Best Animated Feature. 60 wins & 30 nominations",
+    "synopsis": "During her family's move to the suburbs, a sullen 10-year-old girl wanders into a world ruled by gods, witches, and spirits, where humans are changed into beasts.",
+    "poster": "https://images.unsplash.com/photo-1578632767115-351597cf2477?auto=format&fit=crop&w=600&q=80",
+    "roi": 1982.0,
+    "profit": 376580000
+  },
+  {
+    "id": 27,
+    "title": "Get Out",
+    "year": 2017,
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "director": "Jordan Peele",
+    "cast": [
+      "Daniel Kaluuya",
+      "Allison Williams",
+      "Bradley Whitford"
+    ],
+    "rating": 7.8,
+    "metascore": 85,
+    "budget": 4500000,
+    "revenue": 255745157,
+    "runtime": 104,
+    "country": "USA",
+    "awards": "Won 1 Oscar for Best Original Screenplay. 154 wins & 205 nominations",
+    "synopsis": "A young African-American visits his white girlfriend's parents for the weekend, where his simmering uneasiness about their reception of him reaches a boiling point.",
+    "poster": "https://images.unsplash.com/photo-1509248961158-e54f6934749c?auto=format&fit=crop&w=600&q=80",
+    "roi": 5583.23,
+    "profit": 251245157
+  },
+  {
+    "id": 28,
+    "title": "Joker",
+    "year": 2019,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "director": "Todd Phillips",
+    "cast": [
+      "Joaquin Phoenix",
+      "Robert De Niro",
+      "Zazie Beetz"
+    ],
+    "rating": 8.4,
+    "metascore": 59,
+    "budget": 55000000,
+    "revenue": 1074458282,
+    "runtime": 122,
+    "country": "USA",
+    "awards": "Won 2 Oscars including Best Actor. 122 wins & 240 nominations",
+    "synopsis": "A mentally troubled stand-up comedian embarks on a downward spiral that leads to the creation of an iconic villain.",
+    "poster": "https://images.unsplash.com/photo-1563245372-f21724e3856d?auto=format&fit=crop&w=600&q=80",
+    "roi": 1853.56,
+    "profit": 1019458282
+  },
+  {
+    "id": 29,
+    "title": "Gladiator",
+    "year": 2000,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Drama"
+    ],
+    "director": "Ridley Scott",
+    "cast": [
+      "Russell Crowe",
+      "Joaquin Phoenix",
+      "Connie Nielsen"
+    ],
+    "rating": 8.5,
+    "metascore": 67,
+    "budget": 103000000,
+    "revenue": 503162313,
+    "runtime": 155,
+    "country": "USA, UK",
+    "awards": "Won 5 Oscars including Best Picture & Best Actor",
+    "synopsis": "A former Roman General sets out to exact vengeance against the corrupt emperor who murdered his family and sent him into slavery.",
+    "poster": "https://images.unsplash.com/photo-1533488765986-dfa2a9939acd?auto=format&fit=crop&w=600&q=80",
+    "roi": 388.51,
+    "profit": 400162313
+  },
+  {
+    "id": 30,
+    "title": "Whiplash",
+    "year": 2014,
+    "genres": [
+      "Drama",
+      "Music"
+    ],
+    "director": "Damien Chazelle",
+    "cast": [
+      "Miles Teller",
+      "J.K. Simmons",
+      "Melissa Benoist"
+    ],
+    "rating": 8.5,
+    "metascore": 88,
+    "budget": 3300000,
+    "revenue": 49400000,
+    "runtime": 106,
+    "country": "USA",
+    "awards": "Won 3 Oscars. 96 wins & 148 nominations",
+    "synopsis": "A promising young drummer enrolls at a cut-throat music conservatory where his dreams of greatness are mentored by an instructor who will stop at nothing to realize a student's potential.",
+    "poster": "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?auto=format&fit=crop&w=600&q=80",
+    "roi": 1396.97,
+    "profit": 46100000
+  },
+  {
+    "id": 31,
+    "title": "The Matrix",
+    "year": 1999,
+    "genres": [
+      "Action",
+      "Sci-Fi"
+    ],
+    "director": "Lana Wachowski, Lilly Wachowski",
+    "cast": [
+      "Keanu Reeves",
+      "Laurence Fishburne",
+      "Carrie-Anne Moss"
+    ],
+    "rating": 8.7,
+    "metascore": 73,
+    "budget": 63000000,
+    "revenue": 467222728,
+    "runtime": 136,
+    "country": "USA",
+    "awards": "Won 4 Oscars. 42 wins & 51 nominations",
+    "synopsis": "When a beautiful stranger leads computer hacker Neo to a forbidding underworld, he discovers the shocking truth--the life he knows is the elaborate deception of an evil cyber-intelligence.",
+    "poster": "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?auto=format&fit=crop&w=600&q=80",
+    "roi": 641.62,
+    "profit": 404222728
+  },
+  {
+    "id": 32,
+    "title": "Coco",
+    "year": 2017,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Family"
+    ],
+    "director": "Lee Unkrich, Adrian Molina",
+    "cast": [
+      "Anthony Gonzalez",
+      "Gael Garc\u00eda Bernal",
+      "Benjamin Bratt"
+    ],
+    "rating": 8.4,
+    "metascore": 81,
+    "budget": 175000000,
+    "revenue": 814337015,
+    "runtime": 105,
+    "country": "USA",
+    "awards": "Won 2 Oscars for Best Animated Feature & Best Song",
+    "synopsis": "Aspiring musician Miguel, confronted with his family's ancestral ban on music, enters the Land of the Dead to find his great-great-grandfather, a legendary singer.",
+    "poster": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+    "roi": 365.34,
+    "profit": 639337015
+  },
+  {
+    "id": 33,
+    "title": "Mad Max: Fury Road",
+    "year": 2015,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "George Miller",
+    "cast": [
+      "Tom Hardy",
+      "Charlize Theron",
+      "Nicholas Hoult"
+    ],
+    "rating": 8.1,
+    "metascore": 90,
+    "budget": 150000000,
+    "revenue": 380400000,
+    "runtime": 120,
+    "country": "Australia, USA",
+    "awards": "Won 6 Oscars. 248 wins & 244 nominations",
+    "synopsis": "In a post-apocalyptic wasteland, a woman rebels against a tyrannical ruler in search for her homeland with the aid of a group of female prisoners, a psychotic worshiper, and a drifter named Max.",
+    "poster": "https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=600&q=80",
+    "roi": 153.6,
+    "profit": 230400000
+  },
+  {
+    "id": 34,
+    "title": "Fight Club",
+    "year": 1999,
+    "genres": [
+      "Drama"
+    ],
+    "director": "David Fincher",
+    "cast": [
+      "Brad Pitt",
+      "Edward Norton",
+      "Helena Bonham Carter"
+    ],
+    "rating": 8.8,
+    "metascore": 67,
+    "budget": 63000000,
+    "revenue": 101209702,
+    "runtime": 139,
+    "country": "USA",
+    "awards": "Nominated for 1 Oscar. 12 wins & 38 nominations",
+    "synopsis": "An insomniac office worker and a devil-may-care soap maker form an underground fight club that evolves into much more.",
+    "poster": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=600&q=80",
+    "roi": 60.65,
+    "profit": 38209702
+  },
+  {
+    "id": 35,
+    "title": "Inglourious Basterds",
+    "year": 2009,
+    "genres": [
+      "Adventure",
+      "Drama",
+      "War"
+    ],
+    "director": "Quentin Tarantino",
+    "cast": [
+      "Brad Pitt",
+      "Diane Kruger",
+      "Christoph Waltz"
+    ],
+    "rating": 8.4,
+    "metascore": 69,
+    "budget": 70000000,
+    "revenue": 321455689,
+    "runtime": 153,
+    "country": "USA, Germany",
+    "awards": "Won 1 Oscar for Christoph Waltz. 136 wins & 173 nominations",
+    "synopsis": "In Nazi-occupied France during World War II, a plan to assassinate Nazi leaders by a group of Jewish U.S. soldiers coincides with a theatre owner's vengeful plans for the same.",
+    "poster": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80",
+    "roi": 359.22,
+    "profit": 251455689
+  },
+  {
+    "id": 36,
+    "title": "Black Panther",
+    "year": 2018,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "Ryan Coogler",
+    "cast": [
+      "Chadwick Boseman",
+      "Michael B. Jordan",
+      "Lupita Nyong'o"
+    ],
+    "rating": 7.3,
+    "metascore": 88,
+    "budget": 200000000,
+    "revenue": 1349926083,
+    "runtime": 134,
+    "country": "USA",
+    "awards": "Won 3 Oscars. 117 wins & 282 nominations",
+    "synopsis": "T'Challa, heir to the hidden kingdom of Wakanda, must step forward to lead his people into a new future and must confront a challenger from his country's past.",
+    "poster": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=600&q=80",
+    "roi": 574.96,
+    "profit": 1149926083
+  },
+  {
+    "id": 37,
+    "title": "A Quiet Place",
+    "year": 2018,
+    "genres": [
+      "Drama",
+      "Horror",
+      "Sci-Fi"
+    ],
+    "director": "John Krasinski",
+    "cast": [
+      "Emily Blunt",
+      "John Krasinski",
+      "Millicent Simmonds"
+    ],
+    "rating": 7.5,
+    "metascore": 82,
+    "budget": 17000000,
+    "revenue": 341000000,
+    "runtime": 90,
+    "country": "USA",
+    "awards": "Nominated for 1 Oscar. 38 wins & 120 nominations",
+    "synopsis": "A family struggles for survival in a world where most humans have been killed by blind but noise-sensitive creatures. They are forced to communicate only in sign language to survive.",
+    "poster": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
+    "roi": 1905.88,
+    "profit": 324000000
+  },
+  {
+    "id": 38,
+    "title": "La La Land",
+    "year": 2016,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Music",
+      "Romance"
+    ],
+    "director": "Damien Chazelle",
+    "cast": [
+      "Ryan Gosling",
+      "Emma Stone",
+      "John Legend"
+    ],
+    "rating": 8.0,
+    "metascore": 94,
+    "budget": 30000000,
+    "revenue": 472000000,
+    "runtime": 128,
+    "country": "USA",
+    "awards": "Won 6 Oscars including Best Director & Best Actress",
+    "synopsis": "While navigating their careers in Los Angeles, a pianist and an actress fall in love while attempting to reconcile their aspirations for the future.",
+    "poster": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80",
+    "roi": 1473.33,
+    "profit": 442000000
+  },
+  {
+    "id": 39,
+    "title": "Spider-Man: Into the Spider-Verse",
+    "year": 2018,
+    "genres": [
+      "Animation",
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "Bob Persichetti, Peter Ramsey, Rodney Rothman",
+    "cast": [
+      "Shameik Moore",
+      "Jake Johnson",
+      "Hailee Steinfeld"
+    ],
+    "rating": 8.4,
+    "metascore": 87,
+    "budget": 90000000,
+    "revenue": 384300000,
+    "runtime": 117,
+    "country": "USA",
+    "awards": "Won 1 Oscar for Best Animated Feature. 83 wins & 58 nominations",
+    "synopsis": "Teen Miles Morales becomes the new Spider-Man and joins other Spider-Heroes from parallel dimensions to stop a threat to all reality.",
+    "poster": "https://images.unsplash.com/photo-1604200213928-ba3cf4fc8436?auto=format&fit=crop&w=600&q=80",
+    "roi": 327.0,
+    "profit": 294300000
+  },
+  {
+    "id": 40,
+    "title": "Knives Out",
+    "year": 2019,
+    "genres": [
+      "Comedy",
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "director": "Rian Johnson",
+    "cast": [
+      "Daniel Craig",
+      "Chris Evans",
+      "Ana de Armas"
+    ],
+    "rating": 7.9,
+    "metascore": 82,
+    "budget": 40000000,
+    "revenue": 312900000,
+    "runtime": 130,
+    "country": "USA",
+    "awards": "Nominated for 1 Oscar. 52 wins & 118 nominations",
+    "synopsis": "A detective investigates the death of a patriarch of an eccentric, combative family.",
+    "poster": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80",
+    "roi": 682.25,
+    "profit": 272900000
+  },
+  {
+    "id": 41,
+    "title": "The Wolf of Wall Street",
+    "year": 2013,
+    "genres": [
+      "Biography",
+      "Comedy",
+      "Crime"
+    ],
+    "director": "Martin Scorsese",
+    "cast": [
+      "Leonardo DiCaprio",
+      "Jonah Hill",
+      "Margot Robbie"
+    ],
+    "rating": 8.2,
+    "metascore": 75,
+    "budget": 100000000,
+    "revenue": 406900000,
+    "runtime": 180,
+    "country": "USA",
+    "awards": "Nominated for 5 Oscars. 39 wins & 176 nominations",
+    "synopsis": "Based on the true story of Jordan Belfort, from his rise to a wealthy stock-broker living the high life to his fall involving crime, corruption and the federal government.",
+    "poster": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=600&q=80",
+    "roi": 306.9,
+    "profit": 306900000
+  },
+  {
+    "id": 42,
+    "title": "Deadpool",
+    "year": 2016,
+    "genres": [
+      "Action",
+      "Comedy",
+      "Sci-Fi"
+    ],
+    "director": "Tim Miller",
+    "cast": [
+      "Ryan Reynolds",
+      "Morena Baccarin",
+      "T.J. Miller"
+    ],
+    "rating": 8.0,
+    "metascore": 65,
+    "budget": 58000000,
+    "revenue": 782800000,
+    "runtime": 108,
+    "country": "USA",
+    "awards": "Nominated for 2 Golden Globes. 29 wins & 78 nominations",
+    "synopsis": "A wisecracking mercenary gets experimented on and becomes immortal but ugly, and sets out to track down the man who ruined his looks.",
+    "poster": "https://images.unsplash.com/photo-1607604276583-eef5d076aa5f?auto=format&fit=crop&w=600&q=80",
+    "roi": 1249.66,
+    "profit": 724800000
+  },
+  {
+    "id": 43,
+    "title": "Goodfellas",
+    "year": 1990,
+    "genres": [
+      "Biography",
+      "Crime",
+      "Drama"
+    ],
+    "director": "Martin Scorsese",
+    "cast": [
+      "Robert De Niro",
+      "Ray Liotta",
+      "Joe Pesci"
+    ],
+    "rating": 8.7,
+    "metascore": 92,
+    "budget": 25000000,
+    "revenue": 47100000,
+    "runtime": 145,
+    "country": "USA",
+    "awards": "Won 1 Oscar for Joe Pesci. 44 wins & 38 nominations",
+    "synopsis": "The story of Henry Hill and his life in the mob, covering his relationship with his wife Karen Hill and his mob partners Jimmy Conway and Tommy DeVito.",
+    "poster": "https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?auto=format&fit=crop&w=600&q=80",
+    "roi": 88.4,
+    "profit": 22100000
+  },
+  {
+    "id": 44,
+    "title": "Forrest Gump",
+    "year": 1994,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "director": "Robert Zemeckis",
+    "cast": [
+      "Tom Hanks",
+      "Robin Wright",
+      "Gary Sinise"
+    ],
+    "rating": 8.8,
+    "metascore": 82,
+    "budget": 55000000,
+    "revenue": 678200000,
+    "runtime": 142,
+    "country": "USA",
+    "awards": "Won 6 Oscars including Best Picture & Best Actor",
+    "synopsis": "The history of the United States from the 1950s to the '70s unfolds from the perspective of an Alabama man with an IQ of 75, who yearns to be reunited with his childhood sweetheart.",
+    "poster": "https://images.unsplash.com/photo-1509281373149-e957c6296406?auto=format&fit=crop&w=600&q=80",
+    "roi": 1133.09,
+    "profit": 623200000
+  },
+  {
+    "id": 45,
+    "title": "The Grand Budapest Hotel",
+    "year": 2014,
+    "genres": [
+      "Adventure",
+      "Comedy",
+      "Crime"
+    ],
+    "director": "Wes Anderson",
+    "cast": [
+      "Ralph Fiennes",
+      "F. Murray Abraham",
+      "Mathieu Amalric"
+    ],
+    "rating": 8.1,
+    "metascore": 88,
+    "budget": 25000000,
+    "revenue": 172900000,
+    "runtime": 99,
+    "country": "USA, Germany",
+    "awards": "Won 4 Oscars. 138 wins & 229 nominations",
+    "synopsis": "A writer encounters the owner of an aging high-class hotel, who tells him of his early years serving as a lobby boy in the hotel's glorious years under an exceptional concierge.",
+    "poster": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+    "roi": 591.6,
+    "profit": 147900000
+  },
+  {
+    "id": 46,
+    "title": "Arrival",
+    "year": 2016,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "director": "Denis Villeneuve",
+    "cast": [
+      "Amy Adams",
+      "Jeremy Renner",
+      "Forest Whitaker"
+    ],
+    "rating": 7.9,
+    "metascore": 81,
+    "budget": 47000000,
+    "revenue": 203400000,
+    "runtime": 116,
+    "country": "USA",
+    "awards": "Won 1 Oscar. 70 wins & 272 nominations",
+    "synopsis": "A linguist works with the military to communicate with alien lifeforms after twelve mysterious spacecraft appear around the world.",
+    "poster": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80",
+    "roi": 332.77,
+    "profit": 156400000
+  },
+  {
+    "id": 47,
+    "title": "Midsommar",
+    "year": 2019,
+    "genres": [
+      "Drama",
+      "Horror",
+      "Mystery"
+    ],
+    "director": "Ari Aster",
+    "cast": [
+      "Florence Pugh",
+      "Jack Reynor",
+      "Vilhelm Blomgren"
+    ],
+    "rating": 7.1,
+    "metascore": 72,
+    "budget": 9000000,
+    "revenue": 48000000,
+    "runtime": 148,
+    "country": "USA, Sweden",
+    "awards": "28 wins & 126 nominations",
+    "synopsis": "A couple travels to Northern Europe to visit a rural hometown's fabled Swedish mid-summer festival. What begins as an idyllic retreat quickly devolves into an increasingly violent pagan competition.",
+    "poster": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
+    "roi": 433.33,
+    "profit": 39000000
+  },
+  {
+    "id": 48,
+    "title": "Hereditary",
+    "year": 2018,
+    "genres": [
+      "Drama",
+      "Horror",
+      "Mystery"
+    ],
+    "director": "Ari Aster",
+    "cast": [
+      "Toni Collette",
+      "Milly Shapiro",
+      "Gabriel Byrne"
+    ],
+    "rating": 7.3,
+    "metascore": 87,
+    "budget": 10000000,
+    "revenue": 82800000,
+    "runtime": 127,
+    "country": "USA",
+    "awards": "48 wins & 120 nominations",
+    "synopsis": "A grieving family is haunted by tragic and disturbing occurrences after the death of their secretive grandmother.",
+    "poster": "https://images.unsplash.com/photo-1509248961158-e54f6934749c?auto=format&fit=crop&w=600&q=80",
+    "roi": 728.0,
+    "profit": 72800000
+  },
+  {
+    "id": 49,
+    "title": "Dunkirk",
+    "year": 2017,
+    "genres": [
+      "Action",
+      "Drama",
+      "History"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Fionn Whitehead",
+      "Barry Keoghan",
+      "Mark Rylance",
+      "Tom Hardy"
+    ],
+    "rating": 7.8,
+    "metascore": 94,
+    "budget": 100000000,
+    "revenue": 527000000,
+    "runtime": 106,
+    "country": "UK, USA, France",
+    "awards": "Won 3 Oscars. 66 wins & 236 nominations",
+    "synopsis": "Allied soldiers from Belgium, the British Commonwealth and Empire, and France are surrounded by the German Army and evacuated during a fierce battle in World War II.",
+    "poster": "https://images.unsplash.com/photo-1519074069444-1ba4eae16e60?auto=format&fit=crop&w=600&q=80",
+    "roi": 427.0,
+    "profit": 427000000
+  },
+  {
+    "id": 50,
+    "title": "Past Lives",
+    "year": 2023,
+    "genres": [
+      "Drama",
+      "Romance"
+    ],
+    "director": "Celine Song",
+    "cast": [
+      "Greta Lee",
+      "Teo Yoo",
+      "John Magaro"
+    ],
+    "rating": 7.9,
+    "metascore": 94,
+    "budget": 12000000,
+    "revenue": 42000000,
+    "runtime": 105,
+    "country": "USA, South Korea",
+    "awards": "Nominated for 2 Oscars. 80 wins & 220 nominations",
+    "synopsis": "Nora and Hae Sung, two deeply connected childhood friends, are wrested apart after Nora's family emigrates from South Korea. Decades later, they are reunited for one fateful week in New York.",
+    "poster": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=600&q=80",
+    "roi": 250.0,
+    "profit": 30000000
+  },
+  {
+    "id": 51,
+    "title": "Blade Runner 2049",
+    "year": 2017,
+    "genres": [
+      "Action",
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "director": "Denis Villeneuve",
+    "cast": [
+      "Ryan Gosling",
+      "Harrison Ford",
+      "Ana de Armas"
+    ],
+    "rating": 8.0,
+    "metascore": 81,
+    "budget": 150000000,
+    "revenue": 267700000,
+    "runtime": 164,
+    "country": "USA, UK, Canada",
+    "awards": "Won 2 Oscars for Cinematography & Visual Effects",
+    "synopsis": "Young Blade Runner K's discovery of a long-buried secret leads him to track down former Blade Runner Rick Deckard, who's been missing for thirty years.",
+    "poster": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+    "roi": 78.47,
+    "profit": 117700000
+  },
+  {
+    "id": 52,
+    "title": "WALL-E",
+    "year": 2008,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Family",
+      "Sci-Fi"
+    ],
+    "director": "Andrew Stanton",
+    "cast": [
+      "Ben Burtt",
+      "Elissa Knight",
+      "Jeff Garlin"
+    ],
+    "rating": 8.4,
+    "metascore": 95,
+    "budget": 180000000,
+    "revenue": 521300000,
+    "runtime": 98,
+    "country": "USA",
+    "awards": "Won 1 Oscar for Best Animated Feature. 95 wins & 96 nominations",
+    "synopsis": "In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind.",
+    "poster": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?auto=format&fit=crop&w=600&q=80",
+    "roi": 189.61,
+    "profit": 341300000
+  },
+  {
+    "id": 53,
+    "title": "The Social Network",
+    "year": 2010,
+    "genres": [
+      "Biography",
+      "Drama"
+    ],
+    "director": "David Fincher",
+    "cast": [
+      "Jesse Eisenberg",
+      "Andrew Garfield",
+      "Justin Timberlake"
+    ],
+    "rating": 7.8,
+    "metascore": 95,
+    "budget": 40000000,
+    "revenue": 224900000,
+    "runtime": 120,
+    "country": "USA",
+    "awards": "Won 3 Oscars. 172 wins & 186 nominations",
+    "synopsis": "As Harvard student Mark Zuckerberg creates the social networking site that would become known as Facebook, he is sued by the twins who claimed he stole their idea.",
+    "poster": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=600&q=80",
+    "roi": 462.25,
+    "profit": 184900000
+  },
+  {
+    "id": 54,
+    "title": "Spider-Man: Far From Home",
+    "year": 2019,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "Jon Watts",
+    "cast": [
+      "Tom Holland",
+      "Samuel L. Jackson",
+      "Jake Gyllenhaal"
+    ],
+    "rating": 7.4,
+    "metascore": 69,
+    "budget": 160000000,
+    "revenue": 1132000000,
+    "runtime": 129,
+    "country": "USA",
+    "awards": "11 wins & 32 nominations",
+    "synopsis": "Following the events of Avengers: Endgame, Spider-Man must step up to take on new threats in a world that has changed forever.",
+    "poster": "https://images.unsplash.com/photo-1604200213928-ba3cf4fc8436?auto=format&fit=crop&w=600&q=80",
+    "roi": 607.5,
+    "profit": 972000000
+  },
+  {
+    "id": 55,
+    "title": "Finding Nemo",
+    "year": 2003,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Andrew Stanton, Lee Unkrich",
+    "cast": [
+      "Albert Brooks",
+      "Ellen DeGeneres",
+      "Alexander Gould"
+    ],
+    "rating": 8.2,
+    "metascore": 90,
+    "budget": 94000000,
+    "revenue": 940300000,
+    "runtime": 100,
+    "country": "USA",
+    "awards": "Won 1 Oscar for Best Animated Feature. 49 wins & 64 nominations",
+    "synopsis": "After his son is captured in the Great Barrier Reef and taken to Sydney, a timid clownfish sets out on a journey to bring him home.",
+    "poster": "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80",
+    "roi": 900.32,
+    "profit": 846300000
+  },
+  {
+    "id": 56,
+    "title": "Jurassic Park",
+    "year": 1993,
+    "genres": [
+      "Action",
+      "Adventure",
+      "Sci-Fi"
+    ],
+    "director": "Steven Spielberg",
+    "cast": [
+      "Sam Neill",
+      "Laura Dern",
+      "Jeff Goldblum"
+    ],
+    "rating": 8.2,
+    "metascore": 68,
+    "budget": 63000000,
+    "revenue": 1046000000,
+    "runtime": 127,
+    "country": "USA",
+    "awards": "Won 3 Oscars. 44 wins & 34 nominations",
+    "synopsis": "A pragmatic paleontologist touring an almost complete theme park on an island in Central America is tasked with protecting a couple of kids after a power failure causes the cloned dinosaurs to run loose.",
+    "poster": "https://images.unsplash.com/photo-1568605117036-5fe5e7bab0b7?auto=format&fit=crop&w=600&q=80",
+    "roi": 1560.32,
+    "profit": 983000000
+  },
+  {
+    "id": 57,
+    "title": "Raiders of the Lost Ark",
+    "year": 1981,
+    "genres": [
+      "Action",
+      "Adventure"
+    ],
+    "director": "Steven Spielberg",
+    "cast": [
+      "Harrison Ford",
+      "Karen Allen",
+      "Paul Freeman"
+    ],
+    "rating": 8.4,
+    "metascore": 85,
+    "budget": 18000000,
+    "revenue": 389900000,
+    "runtime": 115,
+    "country": "USA",
+    "awards": "Won 4 Oscars. 38 wins & 24 nominations",
+    "synopsis": "In 1936, archaeologist and adventurer Indiana Jones is hired by the U.S. government to find the Ark of the Covenant before Adolf Hitler's Nazis can obtain its awesome powers.",
+    "poster": "https://images.unsplash.com/photo-1469474968028-56623f02e42e?auto=format&fit=crop&w=600&q=80",
+    "roi": 2066.11,
+    "profit": 371900000
+  },
+  {
+    "id": 58,
+    "title": "Schindler's List",
+    "year": 1993,
+    "genres": [
+      "Biography",
+      "Drama",
+      "History"
+    ],
+    "director": "Steven Spielberg",
+    "cast": [
+      "Liam Neeson",
+      "Ralph Fiennes",
+      "Ben Kingsley"
+    ],
+    "rating": 9.0,
+    "metascore": 95,
+    "budget": 22000000,
+    "revenue": 322200000,
+    "runtime": 195,
+    "country": "USA",
+    "awards": "Won 7 Oscars including Best Picture & Best Director",
+    "synopsis": "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
+    "poster": "https://images.unsplash.com/photo-1509198397868-475647b2a1e5?auto=format&fit=crop&w=600&q=80",
+    "roi": 1364.55,
+    "profit": 300200000
+  },
+  {
+    "id": 59,
+    "title": "The Silence of the Lambs",
+    "year": 1991,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "director": "Jonathan Demme",
+    "cast": [
+      "Jodie Foster",
+      "Anthony Hopkins",
+      "Lawrence A. Bonney"
+    ],
+    "rating": 8.6,
+    "metascore": 86,
+    "budget": 19000000,
+    "revenue": 272700000,
+    "runtime": 118,
+    "country": "USA",
+    "awards": "Won 5 Oscars (Big Five sweep)",
+    "synopsis": "A young F.B.I. cadet must receive the help of an incarcerated and manipulative cannibal killer to help catch another serial killer who skins his victims.",
+    "poster": "https://images.unsplash.com/photo-1509248961158-e54f6934749c?auto=format&fit=crop&w=600&q=80",
+    "roi": 1335.26,
+    "profit": 253700000
+  },
+  {
+    "id": 60,
+    "title": "Toy Story 3",
+    "year": 2010,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Lee Unkrich",
+    "cast": [
+      "Tom Hanks",
+      "Tim Allen",
+      "Joan Cusack"
+    ],
+    "rating": 8.3,
+    "metascore": 92,
+    "budget": 200000000,
+    "revenue": 1067000000,
+    "runtime": 103,
+    "country": "USA",
+    "awards": "Won 2 Oscars for Best Animated Feature & Best Song",
+    "synopsis": "The toys are mistakenly delivered to a day-care center instead of the attic right before Andy leaves for college, and it's up to Woody to convince the other toys they weren't abandoned.",
+    "poster": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80",
+    "roi": 433.5,
+    "profit": 867000000
+  },
+  {
+    "id": 61,
+    "title": "The Prestige",
+    "year": 2006,
+    "genres": [
+      "Drama",
+      "Mystery",
+      "Sci-Fi"
+    ],
+    "director": "Christopher Nolan",
+    "cast": [
+      "Christian Bale",
+      "Hugh Jackman",
+      "Scarlett Johansson"
+    ],
+    "rating": 8.5,
+    "metascore": 66,
+    "budget": 40000000,
+    "revenue": 109700000,
+    "runtime": 130,
+    "country": "UK, USA",
+    "awards": "Nominated for 2 Oscars. 6 wins & 45 nominations",
+    "synopsis": "After a tragic accident, two stage magicians in 1890s London engage in a battle to create the ultimate illusion while sacrificing everything they have to outwit each other.",
+    "poster": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
+    "roi": 174.25,
+    "profit": 69700000
+  },
+  {
+    "id": 62,
+    "title": "Alien",
+    "year": 1979,
+    "genres": [
+      "Horror",
+      "Sci-Fi"
+    ],
+    "director": "Ridley Scott",
+    "cast": [
+      "Sigourney Weaver",
+      "Tom Skerritt",
+      "John Hurt"
+    ],
+    "rating": 8.5,
+    "metascore": 89,
+    "budget": 11000000,
+    "revenue": 106000000,
+    "runtime": 117,
+    "country": "UK, USA",
+    "awards": "Won 1 Oscar for Best Visual Effects. 18 wins & 22 nominations",
+    "synopsis": "The crew of a commercial spacecraft encounters a deadly lifeform after investigating an unknown transmission on a desolate planetoid.",
+    "poster": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=600&q=80",
+    "roi": 863.64,
+    "profit": 95000000
+  },
+  {
+    "id": 63,
+    "title": "The Truman Show",
+    "year": 1998,
+    "genres": [
+      "Comedy",
+      "Drama"
+    ],
+    "director": "Peter Weir",
+    "cast": [
+      "Jim Carrey",
+      "Ed Harris",
+      "Laura Linney"
+    ],
+    "rating": 8.2,
+    "metascore": 90,
+    "budget": 60000000,
+    "revenue": 264100000,
+    "runtime": 103,
+    "country": "USA",
+    "awards": "Nominated for 3 Oscars. 40 wins & 68 nominations",
+    "synopsis": "An insurance salesman discovers his whole life is actually a reality TV show broadcast live 24/7 to the entire world without his consent.",
+    "poster": "https://images.unsplash.com/photo-1517604931442-7e0c8ed2963c?auto=format&fit=crop&w=600&q=80",
+    "roi": 340.17,
+    "profit": 204100000
+  },
+  {
+    "id": 64,
+    "title": "Se7en",
+    "year": 1995,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Mystery"
+    ],
+    "director": "David Fincher",
+    "cast": [
+      "Morgan Freeman",
+      "Brad Pitt",
+      "Kevin Spacey"
+    ],
+    "rating": 8.6,
+    "metascore": 65,
+    "budget": 33000000,
+    "revenue": 327300000,
+    "runtime": 127,
+    "country": "USA",
+    "awards": "Nominated for 1 Oscar. 29 wins & 43 nominations",
+    "synopsis": "Two detectives, a rookie and a veteran, hunt a serial killer who uses the seven deadly sins as his motives.",
+    "poster": "https://images.unsplash.com/photo-1509248961158-e54f6934749c?auto=format&fit=crop&w=600&q=80",
+    "roi": 891.82,
+    "profit": 294300000
+  },
+  {
+    "id": 65,
+    "title": "Poor Things",
+    "year": 2023,
+    "genres": [
+      "Comedy",
+      "Drama",
+      "Romance",
+      "Sci-Fi"
+    ],
+    "director": "Yorgos Lanthimos",
+    "cast": [
+      "Emma Stone",
+      "Mark Ruffalo",
+      "Willem Dafoe"
+    ],
+    "rating": 7.9,
+    "metascore": 87,
+    "budget": 35000000,
+    "revenue": 117600000,
+    "runtime": 141,
+    "country": "Ireland, UK, USA",
+    "awards": "Won 4 Oscars including Best Actress for Emma Stone",
+    "synopsis": "The incredible tale about the fantastical evolution of Bella Baxter, a young woman brought back to life by the brilliant and unorthodox scientist Dr. Godwin Baxter.",
+    "poster": "https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=600&q=80",
+    "roi": 236.0,
+    "profit": 82600000
+  },
+  {
+    "id": 66,
+    "title": "The Batman",
+    "year": 2022,
+    "genres": [
+      "Action",
+      "Crime",
+      "Drama"
+    ],
+    "director": "Matt Reeves",
+    "cast": [
+      "Robert Pattinson",
+      "Zo\u00eb Kravitz",
+      "Paul Dano"
+    ],
+    "rating": 7.8,
+    "metascore": 72,
+    "budget": 200000000,
+    "revenue": 772200000,
+    "runtime": 176,
+    "country": "USA",
+    "awards": "Nominated for 3 Oscars. 34 wins & 165 nominations",
+    "synopsis": "When a sadistic serial killer begins murdering key political figures in Gotham, Batman is forced to investigate the city's hidden corruption and question his family's involvement.",
+    "poster": "https://images.unsplash.com/photo-1509248961158-e54f6934749c?auto=format&fit=crop&w=600&q=80",
+    "roi": 286.1,
+    "profit": 572200000
+  },
+  {
+    "id": 67,
+    "title": "No Country for Old Men",
+    "year": 2007,
+    "genres": [
+      "Crime",
+      "Drama",
+      "Thriller"
+    ],
+    "director": "Ethan Coen, Joel Coen",
+    "cast": [
+      "Tommy Lee Jones",
+      "Javier Bardem",
+      "Josh Brolin"
+    ],
+    "rating": 8.2,
+    "metascore": 92,
+    "budget": 25000000,
+    "revenue": 171600000,
+    "runtime": 122,
+    "country": "USA",
+    "awards": "Won 4 Oscars including Best Picture & Supporting Actor",
+    "synopsis": "Violence and mayhem ensue after a hunter stumbles upon a drug deal gone wrong and more than two million dollars in cash near the Rio Grande.",
+    "poster": "https://images.unsplash.com/photo-1533488765986-dfa2a9939acd?auto=format&fit=crop&w=600&q=80",
+    "roi": 586.4,
+    "profit": 146600000
+  },
+  {
+    "id": 68,
+    "title": "Django Unchained",
+    "year": 2012,
+    "genres": [
+      "Drama",
+      "Western"
+    ],
+    "director": "Quentin Tarantino",
+    "cast": [
+      "Jamie Foxx",
+      "Christoph Waltz",
+      "Leonardo DiCaprio"
+    ],
+    "rating": 8.5,
+    "metascore": 81,
+    "budget": 100000000,
+    "revenue": 426000000,
+    "runtime": 165,
+    "country": "USA",
+    "awards": "Won 2 Oscars for Original Screenplay & Christoph Waltz",
+    "synopsis": "With the help of a German bounty-hunter, a freed slave sets out to rescue his wife from a brutal Mississippi plantation owner.",
+    "poster": "https://images.unsplash.com/photo-1578328819058-b69f3a3b0f6b?auto=format&fit=crop&w=600&q=80",
+    "roi": 326.0,
+    "profit": 326000000
+  },
+  {
+    "id": 69,
+    "title": "Coco Avant Chanel",
+    "year": 2009,
+    "genres": [
+      "Biography",
+      "Drama"
+    ],
+    "director": "Anne Fontaine",
+    "cast": [
+      "Audrey Tautou",
+      "Beno\u00eet Poelvoorde",
+      "Alessandro Nivola"
+    ],
+    "rating": 6.7,
+    "metascore": 65,
+    "budget": 26000000,
+    "revenue": 50800000,
+    "runtime": 108,
+    "country": "France",
+    "awards": "Nominated for 1 Oscar. 4 wins & 17 nominations",
+    "synopsis": "The story of Coco Chanel's rise from a humble orphan seamstress to legendary haute couture fashion icon.",
+    "poster": "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?auto=format&fit=crop&w=600&q=80",
+    "roi": 95.38,
+    "profit": 24800000
+  },
+  {
+    "id": 70,
+    "title": "Shrek 2",
+    "year": 2004,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy"
+    ],
+    "director": "Andrew Adamson, Kelly Asbury, Conrad Vernon",
+    "cast": [
+      "Mike Myers",
+      "Eddie Murphy",
+      "Cameron Diaz"
+    ],
+    "rating": 7.3,
+    "metascore": 75,
+    "budget": 150000000,
+    "revenue": 932400000,
+    "runtime": 93,
+    "country": "USA",
+    "awards": "Nominated for 2 Oscars. 17 wins & 52 nominations",
+    "synopsis": "Shrek and Fiona travel to the Kingdom of Far Far Away, where Fiona's parents are King and Queen, to celebrate their marriage, an event one of them wishes was never happening.",
+    "poster": "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=600&q=80",
+    "roi": 521.6,
+    "profit": 782400000
+  },
+  {
+    "id": 71,
+    "title": "The Conjuring",
+    "year": 2013,
+    "genres": [
+      "Horror",
+      "Mystery",
+      "Thriller"
+    ],
+    "director": "James Wan",
+    "cast": [
+      "Patrick Wilson",
+      "Vera Farmiga",
+      "Ron Livingston"
+    ],
+    "rating": 7.5,
+    "metascore": 68,
+    "budget": 20000000,
+    "revenue": 319500000,
+    "runtime": 112,
+    "country": "USA",
+    "awards": "15 wins & 22 nominations",
+    "synopsis": "Paranormal investigators Ed and Lorraine Warren work to help a family terrorized by a dark presence in their farmhouse.",
+    "poster": "https://images.unsplash.com/photo-1509248961158-e54f6934749c?auto=format&fit=crop&w=600&q=80",
+    "roi": 1497.5,
+    "profit": 299500000
+  },
+  {
+    "id": 72,
+    "title": "Inside Out",
+    "year": 2015,
+    "genres": [
+      "Animation",
+      "Adventure",
+      "Comedy",
+      "Drama"
+    ],
+    "director": "Pete Docter, Ronnie Del Carmen",
+    "cast": [
+      "Amy Poehler",
+      "Bill Hader",
+      "Lewis Black"
+    ],
+    "rating": 8.1,
+    "metascore": 94,
+    "budget": 175000000,
+    "revenue": 858800000,
+    "runtime": 95,
+    "country": "USA",
+    "awards": "Won 1 Oscar for Best Animated Feature. 101 wins & 116 nominations",
+    "synopsis": "After young Riley is uprooted from her Midwest life and moved to San Francisco, her emotions - Joy, Fear, Anger, Disgust and Sadness - conflict on how best to navigate a new city.",
+    "poster": "https://images.unsplash.com/photo-1534447677768-be436bb09401?auto=format&fit=crop&w=600&q=80",
+    "roi": 390.74,
+    "profit": 683800000
+  }
+]

@@ -1,0 +1,73 @@
+id,title,year,genres,director,rating,metascore,budget,revenue,profit,roi,runtime,country
+1,Avatar,2009,Action|Adventure|Sci-Fi,James Cameron,7.9,83,237000000,2923706026,2686706026,1133.63,162,USA
+2,Avengers: Endgame,2019,Action|Adventure|Sci-Fi,"Anthony Russo, Joe Russo",8.4,78,356000000,2799439100,2443439100,686.36,181,USA
+3,Titanic,1997,Drama|Romance,James Cameron,7.9,75,200000000,2264743305,2064743305,1032.37,194,USA
+4,Star Wars: Episode VII - The Force Awakens,2015,Action|Adventure|Sci-Fi,J.J. Abrams,7.8,80,245000000,2071310218,1826310218,745.43,138,USA
+5,Avengers: Infinity War,2018,Action|Adventure|Sci-Fi,"Anthony Russo, Joe Russo",8.4,68,325000000,2052415039,1727415039,531.51,149,USA
+6,Spider-Man: No Way Home,2021,Action|Adventure|Sci-Fi,Jon Watts,8.2,71,200000000,1921847111,1721847111,860.92,148,USA
+7,Jurassic World,2015,Action|Adventure|Sci-Fi,Colin Trevorrow,6.9,59,150000000,1671537444,1521537444,1014.36,124,USA
+8,The Lion King,2019,Animation|Adventure|Drama,Jon Favreau,6.8,55,260000000,1663075401,1403075401,539.64,118,USA
+9,The Avengers,2012,Action|Sci-Fi,Joss Whedon,8.0,69,220000000,1520538536,1300538536,591.15,143,USA
+10,Top Gun: Maverick,2022,Action|Drama,Joseph Kosinski,8.3,78,170000000,1495696292,1325696292,779.82,130,USA
+11,Barbie,2023,Adventure|Comedy|Fantasy,Greta Gerwig,6.9,80,145000000,1445638421,1300638421,896.99,114,USA
+12,The Super Mario Bros. Movie,2023,Animation|Adventure|Comedy,"Aaron Horvath, Michael Jelenic",7.0,46,100000000,1362000000,1262000000,1262.0,92,USA
+13,Frozen II,2019,Animation|Adventure|Comedy,"Chris Buck, Jennifer Lee",6.8,64,150000000,1453683476,1303683476,869.12,103,USA
+14,Oppenheimer,2023,Biography|Drama|History,Christopher Nolan,8.9,90,100000000,977000000,877000000,877.0,180,USA
+15,Inception,2010,Action|Adventure|Sci-Fi,Christopher Nolan,8.8,74,160000000,839030630,679030630,424.39,148,USA
+16,The Dark Knight,2008,Action|Crime|Drama,Christopher Nolan,9.0,84,185000000,1006234167,821234167,443.91,152,USA
+17,Interstellar,2014,Adventure|Drama|Sci-Fi,Christopher Nolan,8.7,74,165000000,773867216,608867216,369.01,169,USA
+18,Parasite,2019,Drama|Thriller,Bong Joon Ho,8.5,96,11400000,263100000,251700000,2207.89,132,South Korea
+19,Everything Everywhere All at Once,2022,Action|Adventure|Comedy|Sci-Fi,"Daniel Kwan, Daniel Scheinert",7.8,81,25000000,143400000,118400000,473.6,139,USA
+20,Dune: Part Two,2024,Action|Adventure|Sci-Fi,Denis Villeneuve,8.6,79,190000000,711844358,521844358,274.65,166,USA
+21,Spider-Man: Across the Spider-Verse,2023,Animation|Action|Adventure|Sci-Fi,"Joaquim Dos Santos, Kemp Powers, Justin K. Thompson",8.6,86,100000000,690516673,590516673,590.52,140,USA
+22,The Lord of the Rings: The Return of the King,2003,Action|Adventure|Drama|Fantasy,Peter Jackson,9.0,94,94000000,1146457748,1052457748,1119.64,201,"New Zealand, USA"
+23,Pulp Fiction,1994,Crime|Drama,Quentin Tarantino,8.9,95,8000000,213928762,205928762,2574.11,154,USA
+24,The Godfather,1972,Crime|Drama,Francis Ford Coppola,9.2,100,6000000,291000000,285000000,4750.0,175,USA
+25,The Shawshank Redemption,1994,Drama,Frank Darabont,9.3,82,25000000,73300000,48300000,193.2,142,USA
+26,Spirited Away,2001,Animation|Adventure|Family|Fantasy,Hayao Miyazaki,8.6,96,19000000,395580000,376580000,1982.0,125,Japan
+27,Get Out,2017,Horror|Mystery|Thriller,Jordan Peele,7.8,85,4500000,255745157,251245157,5583.23,104,USA
+28,Joker,2019,Crime|Drama|Thriller,Todd Phillips,8.4,59,55000000,1074458282,1019458282,1853.56,122,USA
+29,Gladiator,2000,Action|Adventure|Drama,Ridley Scott,8.5,67,103000000,503162313,400162313,388.51,155,"USA, UK"
+30,Whiplash,2014,Drama|Music,Damien Chazelle,8.5,88,3300000,49400000,46100000,1396.97,106,USA
+31,The Matrix,1999,Action|Sci-Fi,"Lana Wachowski, Lilly Wachowski",8.7,73,63000000,467222728,404222728,641.62,136,USA
+32,Coco,2017,Animation|Adventure|Comedy|Family,"Lee Unkrich, Adrian Molina",8.4,81,175000000,814337015,639337015,365.34,105,USA
+33,Mad Max: Fury Road,2015,Action|Adventure|Sci-Fi,George Miller,8.1,90,150000000,380400000,230400000,153.6,120,"Australia, USA"
+34,Fight Club,1999,Drama,David Fincher,8.8,67,63000000,101209702,38209702,60.65,139,USA
+35,Inglourious Basterds,2009,Adventure|Drama|War,Quentin Tarantino,8.4,69,70000000,321455689,251455689,359.22,153,"USA, Germany"
+36,Black Panther,2018,Action|Adventure|Sci-Fi,Ryan Coogler,7.3,88,200000000,1349926083,1149926083,574.96,134,USA
+37,A Quiet Place,2018,Drama|Horror|Sci-Fi,John Krasinski,7.5,82,17000000,341000000,324000000,1905.88,90,USA
+38,La La Land,2016,Comedy|Drama|Music|Romance,Damien Chazelle,8.0,94,30000000,472000000,442000000,1473.33,128,USA
+39,Spider-Man: Into the Spider-Verse,2018,Animation|Action|Adventure|Sci-Fi,"Bob Persichetti, Peter Ramsey, Rodney Rothman",8.4,87,90000000,384300000,294300000,327.0,117,USA
+40,Knives Out,2019,Comedy|Crime|Drama|Mystery,Rian Johnson,7.9,82,40000000,312900000,272900000,682.25,130,USA
+41,The Wolf of Wall Street,2013,Biography|Comedy|Crime,Martin Scorsese,8.2,75,100000000,406900000,306900000,306.9,180,USA
+42,Deadpool,2016,Action|Comedy|Sci-Fi,Tim Miller,8.0,65,58000000,782800000,724800000,1249.66,108,USA
+43,Goodfellas,1990,Biography|Crime|Drama,Martin Scorsese,8.7,92,25000000,47100000,22100000,88.4,145,USA
+44,Forrest Gump,1994,Drama|Romance,Robert Zemeckis,8.8,82,55000000,678200000,623200000,1133.09,142,USA
+45,The Grand Budapest Hotel,2014,Adventure|Comedy|Crime,Wes Anderson,8.1,88,25000000,172900000,147900000,591.6,99,"USA, Germany"
+46,Arrival,2016,Drama|Mystery|Sci-Fi,Denis Villeneuve,7.9,81,47000000,203400000,156400000,332.77,116,USA
+47,Midsommar,2019,Drama|Horror|Mystery,Ari Aster,7.1,72,9000000,48000000,39000000,433.33,148,"USA, Sweden"
+48,Hereditary,2018,Drama|Horror|Mystery,Ari Aster,7.3,87,10000000,82800000,72800000,728.0,127,USA
+49,Dunkirk,2017,Action|Drama|History,Christopher Nolan,7.8,94,100000000,527000000,427000000,427.0,106,"UK, USA, France"
+50,Past Lives,2023,Drama|Romance,Celine Song,7.9,94,12000000,42000000,30000000,250.0,105,"USA, South Korea"
+51,Blade Runner 2049,2017,Action|Drama|Mystery|Sci-Fi,Denis Villeneuve,8.0,81,150000000,267700000,117700000,78.47,164,"USA, UK, Canada"
+52,WALL-E,2008,Animation|Adventure|Family|Sci-Fi,Andrew Stanton,8.4,95,180000000,521300000,341300000,189.61,98,USA
+53,The Social Network,2010,Biography|Drama,David Fincher,7.8,95,40000000,224900000,184900000,462.25,120,USA
+54,Spider-Man: Far From Home,2019,Action|Adventure|Sci-Fi,Jon Watts,7.4,69,160000000,1132000000,972000000,607.5,129,USA
+55,Finding Nemo,2003,Animation|Adventure|Comedy,"Andrew Stanton, Lee Unkrich",8.2,90,94000000,940300000,846300000,900.32,100,USA
+56,Jurassic Park,1993,Action|Adventure|Sci-Fi,Steven Spielberg,8.2,68,63000000,1046000000,983000000,1560.32,127,USA
+57,Raiders of the Lost Ark,1981,Action|Adventure,Steven Spielberg,8.4,85,18000000,389900000,371900000,2066.11,115,USA
+58,Schindler's List,1993,Biography|Drama|History,Steven Spielberg,9.0,95,22000000,322200000,300200000,1364.55,195,USA
+59,The Silence of the Lambs,1991,Crime|Drama|Thriller,Jonathan Demme,8.6,86,19000000,272700000,253700000,1335.26,118,USA
+60,Toy Story 3,2010,Animation|Adventure|Comedy,Lee Unkrich,8.3,92,200000000,1067000000,867000000,433.5,103,USA
+61,The Prestige,2006,Drama|Mystery|Sci-Fi,Christopher Nolan,8.5,66,40000000,109700000,69700000,174.25,130,"UK, USA"
+62,Alien,1979,Horror|Sci-Fi,Ridley Scott,8.5,89,11000000,106000000,95000000,863.64,117,"UK, USA"
+63,The Truman Show,1998,Comedy|Drama,Peter Weir,8.2,90,60000000,264100000,204100000,340.17,103,USA
+64,Se7en,1995,Crime|Drama|Mystery,David Fincher,8.6,65,33000000,327300000,294300000,891.82,127,USA
+65,Poor Things,2023,Comedy|Drama|Romance|Sci-Fi,Yorgos Lanthimos,7.9,87,35000000,117600000,82600000,236.0,141,"Ireland, UK, USA"
+66,The Batman,2022,Action|Crime|Drama,Matt Reeves,7.8,72,200000000,772200000,572200000,286.1,176,USA
+67,No Country for Old Men,2007,Crime|Drama|Thriller,"Ethan Coen, Joel Coen",8.2,92,25000000,171600000,146600000,586.4,122,USA
+68,Django Unchained,2012,Drama|Western,Quentin Tarantino,8.5,81,100000000,426000000,326000000,326.0,165,USA
+69,Coco Avant Chanel,2009,Biography|Drama,Anne Fontaine,6.7,65,26000000,50800000,24800000,95.38,108,France
+70,Shrek 2,2004,Animation|Adventure|Comedy,"Andrew Adamson, Kelly Asbury, Conrad Vernon",7.3,75,150000000,932400000,782400000,521.6,93,USA
+71,The Conjuring,2013,Horror|Mystery|Thriller,James Wan,7.5,68,20000000,319500000,299500000,1497.5,112,USA
+72,Inside Out,2015,Animation|Adventure|Comedy|Drama,"Pete Docter, Ronnie Del Carmen",8.1,94,175000000,858800000,683800000,390.74,95,USA
